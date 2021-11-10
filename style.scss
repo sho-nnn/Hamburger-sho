@@ -2,17 +2,17 @@
 // Foundation
 // ==========================================================================
 
-@forward "foundation/_reset";
-@forward "foundation/_base";
+@forward "foundation/reset";
+@forward "foundation/base";
 
 // ==========================================================================
 // Layout
 // ==========================================================================
 
 @forward "layout/l-footer";
-@forward "layout/_l-header";
+@forward "layout/l-header";
 @forward "layout/l-main";
-@forward "layout/_sidebar";
+@forward "layout/sidebar";
 
 // ==========================================================================
 // Object
@@ -22,26 +22,26 @@
 // Component
 // -----------------------------------------------------------------
 
-@forward "object/component/_button";
-@forward "object/component/_dialog";
-@forward "object/component/_grid";
-@forward "object/component/_media";
+@forward "object/component/button";
+@forward "object/component/dialog";
+@forward "object/component/grid";
+@forward "object/component/media";
 
 // -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------
 
-@forward "object/project/_articles";
-@forward "object/project/_comments";
-@forward "object/project/_gallery";
-@forward "object/project/_profile";
+@forward "object/project/articles";
+@forward "object/project/comments";
+@forward "object/project/gallery";
+@forward "object/project/profile";
 
 // -----------------------------------------------------------------
 // Utility
 // -----------------------------------------------------------------
 
-@forward "object/utility/_align";
-@forward "object/utility/_clearfix";
-@forward "object/utility/_margin";
-@forward "object/utility/_size";
-@forward "object/utility/_text";
+@forward "object/utility/align";
+@forward "object/utility/clearfix";
+@forward "object/utility/margin";
+@forward "object/utility/size";
+@forward "object/utility/text";
