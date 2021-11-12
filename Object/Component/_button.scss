@@ -1,25 +1,42 @@
+// 検索ボタン
+form {
+    position:relative;
+    }
+
 .search-box {
-    outline:0;	
-    height:50px;
-    padding:0 10px; 
-    position:absolute; 
+    border: 1px solid #707070;
+    height:30px;
+    padding:0 10px;
+    position:absolute;
     left:0;
-    top:0; 
+    top:0;
     max-width:270px;
-    border-radius:2px;
-    background:#eee;
+    border-radius: 5px;
+    background:#fff;
 }
 
 .search-button {
-    width:70px;
-    height:50px;
-    position:absolute; 
-    left:280px; 
+    width:50px;
+    height:30px;
+    position:absolute;
+    left:230px;
     top:0;
-    border-radius:2px;
-    background:#7fbfff;
-    color:#fff;
+    outline: 1px solid #707070;
+    border-radius:10px;
+    background:#F2EDE9;
+    color:#707070;
     font-weight:bold;
     font-size:16px;
     border:none;
 }
+
+#sbtn2{
+    height:30px;
+    position:absolute; 
+    left: 10px;/*アイコン左右の位置調整*/
+    top:0;
+    background:none;
+    color:#666;
+    border:none;
+    font-size:20px;/*アイコンサイズ*/
+    }

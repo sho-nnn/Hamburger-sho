@@ -20,12 +20,15 @@
 
 // -----------------------------------------------------------------
 // Component
-// -----------------------------------------------------------------
+// ------------------
+-----------------------------------------------
 
 @forward "object/component/button";
 @forward "object/component/dialog";
 @forward "object/component/grid";
+@forward "object/component/mainvisual";
 @forward "object/component/media";
+@forward "object/component/section";
 
 // -----------------------------------------------------------------
 // Project

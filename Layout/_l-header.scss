@@ -1,7 +1,30 @@
-h1 {
-    color: red;
+.l-header {
+    width: 375px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
 }
 
-h2 {
-    color:blue;
+.l-header__title {
+    color: #707070;
+    text-align: center;
+    // position: absolute;
+    // top: 60px;
+    padding-top: 60px;
+}
+
+.l-header__menu {
+    color: #707070;
+    position: absolute;
+    top: 19px;
+    right: 6%;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.p-search-form {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    
 }

@@ -1,0 +1,24 @@
+.TakeOut {
+    background-image: url(/images/front/article.branch-menue_img01.jpg);
+    width: 375px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.section-title {
+    margin-left: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+// section-text
+.section-text {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    opacity: .5;
+    color: #000;
+    overflow: auto;
+}
