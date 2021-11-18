@@ -1,9 +1,21 @@
-.TakeOut {
-    display: flex;
-    align-items: flex-end;
-}
+// article.container {
+//     width: 375px;
+//     height: 600px;
+//     background-color: red;
+//     & .wrapper {
+//         padding: 10px;
+//         &.conts {
+//             // margin: auto;
+//             & .conts-list {
+//                 & .takeOut {
+//                     display: flex;
+//                     flex-flow: column;
+//                     & .section-text {
+//                         margin: 300px 0 10px;
+//                 }
+//             }
+//         }
+//         }
+// }
+// }
 
-.section-text {
-    margin-bottom: 20px;
-    padding-right: 20px;
-}

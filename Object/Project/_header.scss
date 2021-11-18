@@ -1,0 +1,15 @@
+// ヘッダー（コンテナ）
+.p-header__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    .c-header__title {
+    }
+    .c-header__menu {
+        text-align: right;
+    }
+    .p-header__search-form {
+        display: block;
+    }
+}

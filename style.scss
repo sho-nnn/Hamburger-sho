@@ -1,6 +1,6 @@
 // ==========================================================================
 // Foundation
-// ==========================================================================
+// ========================================================,==================
 
 @forward "foundation/reset";
 @forward "foundation/base";
@@ -10,7 +10,7 @@
 // ==========================================================================
 
 @forward "layout/l-footer";
-@forward "layout/l-header";
+@forward "layout/header";
 @forward "layout/l-main";
 @forward "layout/sidebar";
 
@@ -21,7 +21,7 @@
 // -----------------------------------------------------------------
 // Component
 // ------------------
------------------------------------------------
+//-----------------------------------------------
 
 @forward "object/component/button";
 @forward "object/component/dialog";
@@ -29,15 +29,21 @@
 @forward "object/component/mainvisual";
 @forward "object/component/media";
 @forward "object/component/section";
-
+@forward "object/component/box";
+@forward "object/component/header";
+@forward "object/component/icon";
+@forward "object/component/menu";
+@forward "object/component/title";
 // -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------
 
-@forward "object/project/articles";
+@forward "object/project/p-articles";
+@forward "object/project/search-form";
 @forward "object/project/comments";
 @forward "object/project/gallery";
 @forward "object/project/profile";
+@forward "object/project/header";
 
 // -----------------------------------------------------------------
 // Utility
