@@ -7,6 +7,17 @@
 
 // 検索ボックス（サーチフォーム）
 .c-search-form__box {
-    width: 230px;
-    height: 46px;
+    // width: 230px;
+    // height: 46px;
+    position: relative;
 }
+// .c-search-form__box::before {
+//     content: "あいうえお";
+//     width: 16px;
+//     height: 16px;
+//     background: url(../../images/front/header_search-form_icon_img.png);
+//     display: inline-block;
+//     position: absolute;
+//     top: 4px;
+//     left: 5px;
+// }

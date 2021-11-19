@@ -1,21 +1,15 @@
 // サーチフォーム
 .p-header__search-form {
-    position:relative;
-.c-search-form__box {
-    position:absolute;
-    left:0;
-    top:0;
+    display: flex;
+    width: 400px;
+    .c-search-form__box {
+        border: 1px solid #000;
+        width: 100%;
+        background-image: url(../../images/front/header_search-form_icon_img.png);
+        background-repeat: no-repeat;
+        background-position: 10px;
 }
 .c-search-form__button {
-    position:absolute;
-    left:230px;
-    top:0;
-    margin-left: 15px;
-}
-.c-search-form__icon {
-    position:absolute; 
-    left: 12px;
-    top: 3px;
+    margin-left: 10px;
 }
 }
-
