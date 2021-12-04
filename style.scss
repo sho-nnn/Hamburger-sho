@@ -13,6 +13,7 @@
 @forward "layout/header";
 @forward "layout/l-main";
 @forward "layout/sidebar";
+@forward "layout/grid";
 
 // ==========================================================================
 // Object
@@ -25,8 +26,6 @@
 //
 @forward "object/component/button";
 @forward "object/component/dialog";
-@forward "object/component/grid";
-@forward "object/component/mainvisual";
 @forward "object/component/media";
 @forward "object/component/section";
 @forward "object/component/box";
@@ -35,10 +34,13 @@
 @forward "object/component/text";
 @forward "object/component/img";
 @forward "object/component/copyright";
+@forward "object/component/wrapper";
+@forward "object/component/access";
 // -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------
 
+@forward "object/project/mainvisual";
 @forward "object/project/menu";
 @forward "object/project/p-articles";
 @forward "object/project/search-form";
@@ -47,6 +49,11 @@
 @forward "object/project/profile";
 @forward "object/project/header";
 @forward "object/project/menu";
+@forward "object/project/menu";
+@forward "object/project/access";
+@forward "object/project/sidebar";
+@forward "object/project/footer";
+@forward "object/project/main";
 
 // -----------------------------------------------------------------
 // Utility

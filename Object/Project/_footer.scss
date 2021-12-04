@@ -1,0 +1,12 @@
+// フッターリスト
+.p-footer__list {
+    display: flex;
+    .c-footer__text {
+        padding: 0 4%;
+        position: relative;
+    }
+    .c-footer__text:first-child::after{
+        position: absolute;
+    }
+
+}

@@ -1,22 +1,14 @@
-// article.container {
-//     width: 375px;
-//     height: 600px;
-//     background-color: red;
-//     & .wrapper {
-//         padding: 10px;
-//         &.conts {
-//             // margin: auto;
-//             & .conts-list {
-//                 & .takeOut {
-//                     display: flex;
-//                     flex-flow: column;
-//                     & .section-text {
-//                         margin: 300px 0 10px;
-//                 }
-//             }
-//         }
-//         }
-// }
-// }
-
+.l-main {
+    width: 375px;
+    background-color: turquoise;
+    .p-main__mainvisual {
+    }
+    .p-main_brunch-menu {
+        .c-wrapper {
+            .p-brunch-menu__list {
+                margin: auto;
+            }
+        }
+    }
+}
 

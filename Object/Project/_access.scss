@@ -1,0 +1,22 @@
+
+
+
+.p-main__access {
+    // padding: 40px 40px 50px 40px;
+    .p-access__conts {
+        height: 50%;
+        background-color: rgb(0, 0, 0, .5);
+        position: absolute;
+        top: 30;
+        z-index: 2;
+        .c-access__subtitle {
+        }
+        .c-access__text {
+
+        }
+    }
+    .c-access__map {
+        position: relative;
+        z-index: 1;
+    }
+}

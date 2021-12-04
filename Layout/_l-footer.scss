@@ -1,0 +1,13 @@
+.l-footer {
+    width: 375px;
+    height: 150px;
+    background-image: url(../images/front/footer_img03.jpg);
+    text-align: center;
+    .p-footer__list {
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .c-footer__copyright {
+        margin: 34px 30px 0;
+    }
+}

@@ -1,3 +1,8 @@
+// テキスト（原型）
+.c-text {
+
+}
+
 // メニュー部分テキスト（dt）
 .c-takeout-menu__text {
 
@@ -5,10 +10,23 @@
 
 // アクセス部分テキスト（p）
 .c-access__text {
-
+    width: 375px;
 }
 
 // フッター部分テキスト（li）
 .c-footer__text {
-
+    font-size: 20px;
+    color: #fff;
+    display: inline;
 }
+//フッターテキスト部分の間の｜（疑似要素）
+.c-footer__text:first-child::after{
+    margin-top: 6px;
+    content: "";
+    width: 1px;
+    height: 70%;
+    background-color: #fff;
+    left: 100%;
+}
+
+
