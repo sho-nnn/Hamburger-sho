@@ -1,13 +1,15 @@
+@use "../../Foundation/variable" as v;
+
 .p-header {
     display: grid;
     place-items: center;
+    grid-row-gap: 38px;
+    margin: 40px 0;
     &__title {
-        margin: 40px 0;
     }
     &__search-form {
         display: flex;
         max-width: 320px;
-        margin-bottom: 40px;
         &__box {
             width: 100%;
             background-image: url(../../images/front/header_search-form_icon_img.png);
@@ -18,7 +20,7 @@
             width: 78px;
             height: 46px;
             font-weight: bold;
-            outline: 1px solid #707070;
+            outline: 1px solid v.$border-color;
             margin-left: 10px;
         }
     }

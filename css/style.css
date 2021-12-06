@@ -154,8 +154,7 @@ ul {
 .p-header {
   display: grid;
   place-items: center;
-}
-.p-header__title {
+  grid-row-gap: 38px;
   margin: 40px 0;
 }
 .p-header__search-form {
@@ -163,7 +162,6 @@ ul {
   display: -ms-flexbox;
   display: flex;
   max-width: 320px;
-  margin-bottom: 40px;
 }
 .p-header__search-form__box {
   width: 100%;

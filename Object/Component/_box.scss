@@ -1,6 +1,8 @@
+@use "../../Foundation/variable" as v;
+
 // 検索ボックス(原型）
 .c-box {
-    border: 1px solid #707070;
+    border: 1px solid v.$border-color;
     border-radius: 10px;
     background:#fff;
 }
