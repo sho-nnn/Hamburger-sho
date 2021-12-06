@@ -1,15 +1,14 @@
 .p-header {
-    width: 85%;
-    margin: auto;
+    display: grid;
+    place-items: center;
     &__title {
-        margin: 40px;
+        margin: 40px 0;
     }
     &__search-form {
         display: flex;
         max-width: 320px;
         margin-bottom: 40px;
         &__box {
-            border: 1px solid #000;
             width: 100%;
             background-image: url(../../images/front/header_search-form_icon_img.png);
             background-repeat: no-repeat;
@@ -20,7 +19,7 @@
             height: 46px;
             font-weight: bold;
             outline: 1px solid #707070;
-            margin-left: 10px; //これがModifier？
+            margin-left: 10px;
         }
     }
 }

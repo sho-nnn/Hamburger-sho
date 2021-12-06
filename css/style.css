@@ -152,11 +152,11 @@ ul {
 }
 
 .p-header {
-  width: 85%;
-  margin: auto;
+  display: grid;
+  place-items: center;
 }
 .p-header__title {
-  margin: 40px;
+  margin: 40px 0;
 }
 .p-header__search-form {
   display: -webkit-box;
@@ -166,7 +166,6 @@ ul {
   margin-bottom: 40px;
 }
 .p-header__search-form__box {
-  border: 1px solid #000;
   width: 100%;
   background-image: url(../../images/front/header_search-form_icon_img.png);
   background-repeat: no-repeat;
