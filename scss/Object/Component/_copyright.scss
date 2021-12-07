@@ -1,0 +1,7 @@
+@use "../../Foundation/variable" as v;
+
+// コピーライト
+.c-footer__copyright {
+    font-size: v.$fz01;
+    color: v.$color01;
+}

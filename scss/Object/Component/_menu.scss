@@ -1,6 +1,8 @@
+@use "../../Foundation/variable" as v;
+
 // お持ち帰りタイトル
 .c-takeout-menu__title {
-    font-size: 55px;
+    font-size: v.$fz09;
 }
 
 
@@ -11,6 +13,6 @@
 
 // サイドバーメニュー
 .c-menu__item {
-    font-size: 20px;
-    color: #707070;
+    font-size: v.$fz03;
+    color: v.$color02;
 }

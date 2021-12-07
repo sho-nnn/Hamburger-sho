@@ -9,26 +9,14 @@
         padding: 11px 162px 232px 10px;//ここ１つにたたんだ方がいいのか
     }
 }
-//EatInセクション
-.p-brunch-menu__eatin {
-    background-image: url(../../images/front/article.brunch-menu_img02.png);
-    .c-section__title {
-        padding: 11px 162px 232px 10px;//ここ１つにたたんだ方がいいのか
-    }
-}
+
 
 //お持ち帰りメニュー（li）
 .p-takeout-menu_item {
     margin: 10px;   //ここはModifireか？
 }
 
-// お持ち帰りメニュー（dl）
-.p-takeout-menu {
-    background-color: #fff;
-    opacity: .5;
-    color: #000;
-    overflow: auto;
-}
+
 
 // サイドバーメニューリスト
 .p-menu__list {

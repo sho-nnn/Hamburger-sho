@@ -1,0 +1,26 @@
+@use "../../Foundation/variable" as v;
+
+.p-section01 {
+    background-image: url(../../../images/front/article.brunch-menu_img01.png);
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__title {
+
+    }
+    &__list {
+        &__item {
+
+        }
+    }
+}
+
+//EatInセクション
+.p-brunch-menu__eatin {
+    background-image: url(../../images/front/article.brunch-menu_img02.png);
+    .c-section__title {
+        padding: 11px 162px 232px 10px;//ここ１つにたたんだ方がいいのか
+    }
+}

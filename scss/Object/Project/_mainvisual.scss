@@ -1,6 +1,8 @@
+@use "../../Foundation/variable" as v;
+
 // サブタイトル（h2）
 .p-mainvisual__title {
     background-image: url(../../images/front/mainvisual_img.png);
-    color: #fff;
+    color: v.$color01;
     padding: 119px 6%;
 }

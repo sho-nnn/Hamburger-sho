@@ -1,0 +1,10 @@
+@use "../../Foundation/variable" as v;
+
+// 検索ボタン（原型）
+.c-button {
+    border-radius: v.$br01;
+    background: v.$color03;
+    color: v.$color02;
+}
+
+

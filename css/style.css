@@ -60,7 +60,7 @@ ul {
 .c-box {
   border: 1px solid #707070;
   border-radius: 10px;
-  background: #fff;
+  background: #FFFFFF;
 }
 
 .c-title {
@@ -69,7 +69,7 @@ ul {
 
 .c-subtitle01 {
   font-size: 41px;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c-subtitle02 {
@@ -79,6 +79,12 @@ ul {
 
 .c-takeout-menu__title {
   font-size: 22px;
+  color: #3C2A10;
+}
+
+.c-takeout-menu__text {
+  font-size: 16px;
+  color: #3C2A10;
 }
 
 .c-access__text {
@@ -87,7 +93,7 @@ ul {
 
 .c-footer__text {
   font-size: 20px;
-  color: #fff;
+  color: #FFFFFF;
   display: inline;
 }
 
@@ -96,13 +102,13 @@ ul {
   content: "";
   width: 1px;
   height: 70%;
-  background-color: #fff;
+  background-color: #FFFFFF;
   left: 100%;
 }
 
 .c-footer__copyright {
   font-size: 14px;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c-wrapper {
@@ -115,7 +121,7 @@ ul {
 
 .p-mainvisual__title {
   background-image: url(../../images/front/mainvisual_img.png);
-  color: #fff;
+  color: #FFFFFF;
   padding: 119px 6%;
 }
 
@@ -126,22 +132,8 @@ ul {
   padding: 11px 162px 232px 10px;
 }
 
-.p-brunch-menu__eatin {
-  background-image: url(../../images/front/article.brunch-menu_img02.png);
-}
-.p-brunch-menu__eatin .c-section__title {
-  padding: 11px 162px 232px 10px;
-}
-
 .p-takeout-menu_item {
   margin: 10px;
-}
-
-.p-takeout-menu {
-  background-color: #fff;
-  opacity: 0.5;
-  color: #000;
-  overflow: auto;
 }
 
 .p-menu__list {
@@ -231,5 +223,40 @@ ul {
 
 .p-main__mainvisual {
   height: 285px;
+}
+
+.p-takeout-menu {
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  overflow: auto;
+  margin: 0 3% 9px 3%;
+}
+.p-takeout-menu__title {
+  margin: 19px 3%;
+  margin-bottom: 19px;
+}
+.p-takeout-menu__text {
+  margin: 0 3% 23px 3%;
+}
+
+.p-section01 {
+  background-image: url(../../../images/front/article.brunch-menu_img01.png);
+  height: 642px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.p-brunch-menu__eatin {
+  background-image: url(../../images/front/article.brunch-menu_img02.png);
+}
+.p-brunch-menu__eatin .c-section__title {
+  padding: 11px 162px 232px 10px;
 }
 /*# sourceMappingURL=style.css.map */
