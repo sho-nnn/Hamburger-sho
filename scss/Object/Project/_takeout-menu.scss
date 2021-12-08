@@ -3,8 +3,7 @@
 
 // お持ち帰りメニュー（dl/dt/dd）
 .p-takeout-menu {
-    background-color: v.$color01;
-    opacity: .5;
+    background-color: rgba(255, 255, 255, 0.5);
     overflow: auto; //文字がはみ出るとスクロール
     margin: 0 3% 9px 3%;
     &__title {
