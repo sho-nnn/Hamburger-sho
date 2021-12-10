@@ -1,0 +1,15 @@
+@use "../../Foundation/variable" as v;
+
+// 地図背景
+.c-bg01 {
+    width: v.$width_sp;
+    height: 415px;
+    background-color: rgb(0, 0, 0, .5);
+}
+// 地図背景
+.c-bg02 {
+    width: v.$width_sp;
+    height: 691px;
+    background-color: rgb(0, 0, 0, .2);
+}
+

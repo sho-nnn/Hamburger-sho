@@ -4,30 +4,23 @@
 .p-main__access {
     width: v.$width_sp;
     height: 691px;
+    position: relative;
+    overflow: scroll;
     &__conts {
-        height: 415px;
-        background-color: rgb(0, 0, 0, .5);
         position: absolute;
-        top: 30;
+        top: 0;
         z-index: 2;
         &__title {
+            font-size: v.$fz06;
+            padding: 40px 0 40px 11%;
         }
         &__text {
-
+            padding: 0 10% 51px 10%;
         }
     }
-    &__bg {
-        height: 691px;
-        background-color: rgb(0, 0, 0, .2);
+    &__map {
         position: absolute;
-        top: 30;
-        z-index: 2;
-    }
-    .c-map {
-        width: v.$width_sp;
-        height: 100%;
-        position: relative;
+        top: 0;
         z-index: 1;
-        vertical-align: top;
     }
 }

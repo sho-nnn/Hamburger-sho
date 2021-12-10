@@ -1,0 +1,20 @@
+@use "../../Foundation/variable" as v;
+
+.p-main__access__map {
+    position: relative;
+    .c-bg01 {
+        position: absolute;
+        top: 0;
+        z-index: 3;
+    }
+    .c-bg02 {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
+    .c-map {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+}
