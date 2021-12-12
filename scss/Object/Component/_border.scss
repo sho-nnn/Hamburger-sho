@@ -1,0 +1,12 @@
+@use "../../Foundation/variable" as v;
+
+
+@mixin border-bottom {
+    content: '';
+    position: absolute;
+    bottom: -20px;/*線の上下位置*/
+    display: inline-block;
+    width: 16%;/*線の長さ*/
+    height: 4px;/*線の太さ*/
+    background-color: v.$color01;/*線の色*/
+  }

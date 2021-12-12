@@ -1,4 +1,5 @@
 @use "../../Foundation/variable" as v;
+@use "../Component/border" as b;
 
 // セクション（テイクアウト）
 .p-section {
@@ -11,6 +12,10 @@
     &__title {
         margin-top: 13px;
         margin-left: 3%;
+        position: relative;
+    }
+    &__title::before {
+        @include b.border-bottom;
     }
     &__list {
         &__item {

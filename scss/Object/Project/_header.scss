@@ -1,6 +1,7 @@
 @use "../../Foundation/variable" as v;
 
 .p-header {
+    width: v.$width_sp;
     display: grid;
     place-items: center;
     grid-row-gap: 38px;
@@ -9,15 +10,15 @@
     }
     &__search-form {
         display: flex;
-        max-width: 320px;
+        width: 85%;
         &__box {
-            width: 100%;
+            width: 71%;
             background-image: url(../../images/front/header_search-form_icon_img.png);
             background-repeat: no-repeat;
             background-position: 12px;
         }
         &__button {
-            width: 78px;
+            width: 24%;
             height: 46px;
             font-weight: bold;
             outline: 1px solid v.$color02;

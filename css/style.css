@@ -1,3 +1,4 @@
+@charset "UTF-8";
 ul {
   list-style: none;
 }
@@ -121,6 +122,7 @@ ul {
 }
 
 .p-header {
+  width: 375px;
   display: grid;
   place-items: center;
   grid-row-gap: 38px;
@@ -130,16 +132,16 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 320px;
+  width: 85%;
 }
 .p-header__search-form__box {
-  width: 100%;
+  width: 71%;
   background-image: url(../../images/front/header_search-form_icon_img.png);
   background-repeat: no-repeat;
   background-position: 12px;
 }
 .p-header__search-form__button {
-  width: 78px;
+  width: 24%;
   height: 46px;
   font-weight: bold;
   outline: 1px solid #707070;
@@ -179,13 +181,30 @@ ul {
 .p-main__access__conts__title {
   font-size: 30px;
   padding: 40px 0 40px 11%;
+  position: relative;
+}
+.p-main__access__conts__title::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 16%;
+  /*線の長さ*/
+  height: 4px;
+  /*線の太さ*/
+  background-color: #FFFFFF;
+  /*線の色*/
+  bottom: 20px;
 }
 .p-main__access__conts__text {
   padding: 0 10% 51px 10%;
+  height: 518px;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   line-height: 2;
+  overflow: auto;
 }
 .p-main__access__map {
   position: absolute;
@@ -268,6 +287,20 @@ ul {
 .p-section__title {
   margin-top: 13px;
   margin-left: 3%;
+  position: relative;
+}
+.p-section__title::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 16%;
+  /*線の長さ*/
+  height: 4px;
+  /*線の太さ*/
+  background-color: #FFFFFF;
+  /*線の色*/
 }
 .p-section02 {
   background-image: url(../../../images/front/article.brunch-menu_img02.png);
