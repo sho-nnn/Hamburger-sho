@@ -2,34 +2,7 @@
 
 // テキスト（原型）
 .c-text {
-
-}
-
-// メニュー部分テキスト（dt）
-.c-takeout-menu__text {
-    font-size: v.$fz02;
-    color: v.$color04;
-}
-
-// アクセス部分テキスト（p）
-.c-access__text {
-    width: v.$width_sp;
-}
-
-// フッター部分テキスト（li）
-.c-footer__text {
-    font-size: v.$fz03;
-    color: v.$color01;
-    display: inline;
-}
-//フッターテキスト部分の間の｜（疑似要素）
-.c-footer__text:first-child::after{
-    margin-top: 6px;
-    content: "";
-    width: 1px;
-    height: 70%;
-    background-color: v.$color01;
-    left: 100%;
+    font-family: v.$font-base;
 }
 
 
