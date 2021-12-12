@@ -1,7 +1,6 @@
 @use "../../Foundation/variable" as v;
 
 .p-header {
-    width: v.$width_sp;
     display: grid;
     place-items: center;
     grid-row-gap: 38px;

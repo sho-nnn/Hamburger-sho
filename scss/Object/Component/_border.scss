@@ -1,6 +1,6 @@
 @use "../../Foundation/variable" as v;
 
-
+// タイトル下の白ボーダー装飾
 @mixin border-bottom {
     content: '';
     position: absolute;

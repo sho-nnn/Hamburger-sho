@@ -3,8 +3,8 @@
 
 
 .p-main__access {
-    width: v.$width_sp;
-    height: 691px;
+    // width: v.$width_sp;
+    height: 100vw;
     position: relative;
     overflow: hidden;
     &__conts {
@@ -22,12 +22,12 @@
         }
         &__text {
             padding: 0 10% 51px 10%;
-            height: 518px;
+            // height: 518px;
             color: v.$color01;
             font-size: v.$fz01;
             font-weight: bold;
             line-height: 2;
-            overflow: auto;
+            // overflow: auto;
         }
     }
     &__map {

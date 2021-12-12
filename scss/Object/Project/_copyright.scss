@@ -1,8 +1,9 @@
 @use "../../Foundation/variable" as v;
 
 // コピーライト
-.c-copyright {
+.p-footer__copyright {
     font-size: v.$fz01;
     color: v.$color01;
     font-family: v.$font-base;
+    margin: 34px 30px 0;
 }

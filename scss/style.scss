@@ -5,16 +5,16 @@
 @forward "foundation/reset";
 @forward "foundation/base";
 @forward "foundation/variable";
+@forward "foundation/grid";
 
 // ==========================================================================
 // Layout
 // ==========================================================================
 
-@forward "layout/l-footer";
+@forward "layout/footer";
 @forward "layout/header";
-@forward "layout/l-main";
+@forward "layout/main";
 @forward "layout/sidebar";
-@forward "layout/grid";
 
 // ==========================================================================
 // Object
@@ -33,7 +33,6 @@
 @forward "object/component/title";
 @forward "object/component/text";
 @forward "object/component/img";
-@forward "object/component/copyright";
 @forward "object/component/wrapper";
 @forward "object/component/access";
 @forward "object/component/bg";
@@ -43,9 +42,10 @@
 // Project
 // -----------------------------------------------------------------
 
+@forward "object/project/copyright";
 @forward "object/project/mainvisual";
 @forward "object/project/menu";
-@forward "object/project/p-articles";
+@forward "object/project/articles";
 @forward "object/project/comments";
 @forward "object/project/gallery";
 @forward "object/project/profile";

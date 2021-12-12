@@ -2,12 +2,12 @@
 
 .p-main__access__map {
     position: relative;
-    .c-bg01 {
+    .c-bg__front {
         position: absolute;
         top: 0;
         z-index: 3;
     }
-    .c-bg02 {
+    .c-bg__end {
         position: absolute;
         top: 0;
         z-index: 2;
@@ -16,5 +16,6 @@
         position: absolute;
         top: 0;
         z-index: 1;
+        max-width: 100%;
     }
 }
