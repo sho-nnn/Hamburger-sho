@@ -30,9 +30,6 @@ ul {
 .l-main {
   background-color: turquoise;
 }
-.l-main .p-main_brunch-menu .c-wrapper .p-brunch-menu__list {
-  margin: auto;
-}
 
 .c-button {
   border-radius: 10px;
@@ -101,7 +98,7 @@ ul {
   font-size: 14px;
   color: #FFFFFF;
   font-family: "M+ 1m", sans-serif;
-  margin: 34px 30px 0;
+  margin: 34px 0 30px 0;
 }
 
 .p-main__mainvisual .p-main__mainvisual__title {
@@ -236,7 +233,6 @@ ul {
 
 .p-takeout-menu {
   background-color: rgba(255, 255, 255, 0.7);
-  overflow: auto;
   margin: 0 3% 9px 3%;
 }
 .p-takeout-menu__title {
@@ -249,6 +245,7 @@ ul {
 
 .p-section {
   background-image: url(../../../images/front/article.brunch-menu_img01.png);
+  height: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
