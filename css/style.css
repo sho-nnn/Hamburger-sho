@@ -104,7 +104,8 @@ ul {
 .p-main__mainvisual .p-main__mainvisual__title {
   background-image: url(../../../images/front/mainvisual_img.png);
   color: #FFFFFF;
-  padding: 119px 6%;
+  padding: 31% 7%;
+  background-size: cover;
 }
 
 .p-header {
@@ -257,6 +258,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 20px;
+  background-size: cover;
 }
 .p-section__title {
   margin-top: 13px;
