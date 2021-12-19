@@ -3,28 +3,29 @@
 
 // セクション（テイクアウト）
 .p-section {
-    background-image: url(../../../images/front/article.brunch-menu_img01.png);
-    height: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    background-size: cover;
+display: grid;
     &__title {
+        grid-row: 1;
+        grid-column: 1;
         margin-top: 13px;
         margin-left: 3%;
         position: relative;
     }
     &__title::before {
+        grid-row: 1;
+        grid-column: 1;
         @include b.border-bottom;
     }
     &__list {
+        grid-row: 1;
+        grid-column: 1;
         &__item {
 
         }
     }
+    .c-section__img {
+        grid-row: 1;
+        grid-column: 1;
+    }
 }
 
-.p-section02{
-    background-image: url(../../../images/front/article.brunch-menu_img02.png);
-}
