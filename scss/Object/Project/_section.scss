@@ -10,6 +10,7 @@
     width:100%;
     padding-top:191.6417%;
     background-size:cover;
+    margin-bottom: 6%;
     &__title {
         position: absolute;
         top: 0;
@@ -25,5 +26,12 @@
             padding-bottom: 3%;
         }
     }
+}
+
+.p-section02 {
+    background: url(../../../images/front/article.brunch-menu_img02.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 

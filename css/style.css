@@ -31,6 +31,10 @@ ul {
   background-color: turquoise;
 }
 
+.l-sidebar {
+  background-color: red;
+}
+
 .c-button {
   border-radius: 10px;
   background: #F2EDE9;
@@ -175,24 +179,35 @@ ul {
 .p-main__access {
   width: 100%;
   height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0.5)), color-stop(50%, transparent), to(transparent)), url(../../../images/front/access-map_img.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, transparent 50%, transparent 100%), url(../../../images/front/access-map_img.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.p-main__access__title {
   position: relative;
-}
-.p-main__access__map {
-  vertical-align: bottom;
-}
-.p-main__access__description {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2) 100%);
-  position: absolute;
-  top: 0;
-  height: 100%;
-}
-.p-main__access__description__title {
   font-size: 30px;
   padding: 6% 0 6% 11%;
   color: magenta;
 }
-.p-main__access__description__text {
+.p-main__access__title::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 33.89px;
+  /*線の長さ*/
+  height: 4px;
+  /*線の太さ*/
+  background-color: #FFFFFF;
+  /*線の色*/
+  bottom: 10px;
+  width: 75px;
+  height: 2px;
+}
+.p-main__access__text {
   padding: 0 10% 51px 10%;
   color: #FFFFFF;
   font-size: 14px;
@@ -258,6 +273,7 @@ ul {
   width: 100%;
   padding-top: 191.6417%;
   background-size: cover;
+  margin-bottom: 6%;
 }
 .p-section__title {
   position: absolute;
@@ -281,5 +297,12 @@ ul {
 }
 .p-section__list__item {
   padding-bottom: 3%;
+}
+
+.p-section02 {
+  background: url(../../../images/front/article.brunch-menu_img02.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
