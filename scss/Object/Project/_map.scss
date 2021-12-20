@@ -1,21 +1,2 @@
 @use "../../Foundation/variable" as v;
 
-.p-main__access__map {
-    position: relative;
-    .c-bg__front {
-        position: absolute;
-        top: 0;
-        z-index: 3;
-    }
-    .c-bg__end {
-        position: absolute;
-        top: 0;
-        z-index: 2;
-    }
-    .c-map {
-        position: absolute;
-        top: 0;
-        z-index: 1;
-        max-width: 100%;
-    }
-}

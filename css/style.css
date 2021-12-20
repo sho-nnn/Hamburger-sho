@@ -84,19 +84,15 @@ ul {
 }
 
 .c-bg__front {
-  width: 100vw;
-  height: 60vw;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .c-bg__end {
-  width: 100vw;
-  height: 100vw;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .c-map {
-  height: 100vw;
+  width: 100%;
 }
 
 .p-footer__copyright {
@@ -177,45 +173,33 @@ ul {
 }
 
 .p-main__access {
-  height: 100vw;
+  width: 100%;
+  height: auto;
   position: relative;
-  overflow: hidden;
 }
-.p-main__access__conts {
+.p-main__access__map {
+  vertical-align: bottom;
+}
+.p-main__access__description {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0.5)), color-stop(50%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2) 100%);
   position: absolute;
   top: 0;
-  z-index: 2;
+  height: 100%;
 }
-.p-main__access__conts__title {
+.p-main__access__description__title {
   font-size: 30px;
-  padding: 40px 0 40px 11%;
-  position: relative;
+  padding: 6% 0 6% 11%;
+  color: magenta;
 }
-.p-main__access__conts__title::before {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  /*線の上下位置*/
-  display: inline-block;
-  width: 16%;
-  /*線の長さ*/
-  height: 4px;
-  /*線の太さ*/
-  background-color: #FFFFFF;
-  /*線の色*/
-  bottom: 20px;
-}
-.p-main__access__conts__text {
+.p-main__access__description__text {
   padding: 0 10% 51px 10%;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   line-height: 2;
-}
-.p-main__access__map {
-  position: absolute;
-  top: 0;
-  z-index: 1;
+  color: magenta;
+  height: auto;
 }
 
 .p-sidebar__item .c-menu__title {
@@ -257,67 +241,45 @@ ul {
 
 .p-takeout-menu {
   background-color: rgba(255, 255, 255, 0.7);
-  margin: 0 3% 9px 3%;
+  margin: 0 3% 0 3%;
 }
 .p-takeout-menu__title {
-  margin: 19px 3%;
-  margin-bottom: 19px;
+  padding: 3% 3%;
 }
 .p-takeout-menu__text {
-  margin: 0 3% 23px 3%;
+  padding: 0 3% 3% 3%;
 }
 
 .p-section {
-  display: grid;
+  position: relative;
+  background: url(../../../images/front/article.brunch-menu_img01.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  padding-top: 191.6417%;
+  background-size: cover;
 }
 .p-section__title {
-  grid-row: 1;
-  grid-column: 1;
-  margin-top: 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 3%;
   margin-left: 3%;
-  position: relative;
 }
 .p-section__title::before {
-  grid-row: 1;
-  grid-column: 1;
   content: "";
   position: absolute;
   bottom: -20px;
   /*線の上下位置*/
   display: inline-block;
-  width: 16%;
+  width: 33.89px;
   /*線の長さ*/
   height: 4px;
   /*線の太さ*/
   background-color: #FFFFFF;
   /*線の色*/
 }
-.p-section__list {
-  grid-row: 1;
-  grid-column: 1;
-}
-.p-section .c-section__img {
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.p-main__access__map {
-  position: relative;
-}
-.p-main__access__map .c-bg__front {
-  position: absolute;
-  top: 0;
-  z-index: 3;
-}
-.p-main__access__map .c-bg__end {
-  position: absolute;
-  top: 0;
-  z-index: 2;
-}
-.p-main__access__map .c-map {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  max-width: 100%;
+.p-section__list__item {
+  padding-bottom: 3%;
 }
 /*# sourceMappingURL=style.css.map */

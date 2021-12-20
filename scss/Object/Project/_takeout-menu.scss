@@ -3,12 +3,12 @@
 // お持ち帰りメニュー（dl/dt/dd）
 .p-takeout-menu {
     background-color: rgba(255, 255, 255, 0.7);
-    margin: 0 3% 9px 3%;
+    margin: 0 3% 0 3%;
     &__title {
-        margin: 19px 3%;
-        margin-bottom: 19px;
+        padding: 3% 3%;
+        // margin-bottom: 19px;
     }
     &__text {
-        margin: 0 3% 23px 3%;
+        padding: 0 3% 3% 3%;
     }
 }

@@ -3,36 +3,35 @@
 
 // 地図の部分全部
 .p-main__access {
-    // width: v.$width_sp;
-    height: 100vw;
+    width: 100%;
+    height: auto;
     position: relative;
-    overflow: hidden;
-    &__conts {
+    &__map {
+        vertical-align: bottom;
+    }
+    &__description {
+        background:linear-gradient(180deg,rgb(0, 0, 0, .5) 0%,rgb(0, 0, 0, .5) 50%,rgb(0, 0, 0, .2) 50%,rgb(0, 0, 0, .2) 100%);
         position: absolute;
         top: 0;
-        z-index: 2;
+        height: 100%;
         &__title {
             font-size: v.$fz06;
-            padding: 40px 0 40px 11%;
-            position: relative;
+            padding: 6% 0 6% 11%;
+            color:magenta;
         }
         &__title::before {
-            @include b.border-bottom;
-            bottom: 20px;
+            // @include b.border-bottom;
+            // // bottom: 20px;
+            // width: 75px;
         }
         &__text {
             padding: 0 10% 51px 10%;
-            // height: 518px;
             color: v.$color01;
             font-size: v.$fz01;
             font-weight: bold;
             line-height: 2;
-            // overflow: auto;
+            color: magenta;
+            height: auto;
         }
-    }
-    &__map {
-        position: absolute;
-        top: 0;
-        z-index: 1;
     }
 }
