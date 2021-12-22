@@ -1,4 +1,4 @@
+@use "../Foundation/variable" as v;
 .l-header {
-    background-color: tomato;
-    // width: 50%;
+    background-color: v.$color06;
 }

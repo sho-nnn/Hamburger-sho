@@ -6,7 +6,7 @@
 .p-main__access {
     width: 100%;
     height: auto;
-    background:linear-gradient(rgb(0, 0, 0, .5) 0%,rgb(0, 0, 0, .5) 50%, transparent 50%,transparent 100%), url(../../../images/front/access-map_img.png);
+    background:linear-gradient(rgb(0, 0, 0, 0.6) 0%,rgb(0, 0, 0, 0.6) 50%, rgb(0, 0, 0, 0.29) 50%,rgb(0, 0, 0, 0.29) 100%), url(../../../images/front/access-map_img.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14,7 +14,7 @@
             position: relative; //←疑似要素のために
             font-size: v.$fz06;
             padding: 6% 0 6% 11%;
-            color:magenta;
+            color: v.$color01;
         }
         &__title::before {
             @include m.border-bottom;
@@ -28,7 +28,7 @@
             font-size: v.$fz01;
             font-weight: bold;
             line-height: 2;
-            color: magenta;
+            color: v.$color01;
             height: auto;
         }
     }

@@ -4,11 +4,8 @@
 
 .p-sidebar {
     position: relative;
-    &__title {
-        position: absolute;
-        left: -300;
-    }
     &__list {
+        margin-top: 212px;
         &__item {
 
         }
@@ -24,3 +21,4 @@
     background-color: v.$color05;
     opacity: .5;
 }
+
