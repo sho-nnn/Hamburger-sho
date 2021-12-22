@@ -1,1 +1,26 @@
+@use "../../Foundation/variable" as v;
+@use "../Component/border" as b;
+@use "../../Foundation/mixin" as m;
 
+.p-menu {
+    font-size: 0.625vw;
+    &__title {
+        font-size: 2.4em;
+        // @include m.fz_p-menu(24);
+        color: v.$color02;
+        margin-bottom: 40px;
+        margin-left: 26%;
+    }
+    &__list {
+        line-height: 2;
+        margin: 0 1% 34px 32%;
+        &__item {
+            font-family: v.$font-base;
+            // font-size: v.$fz03;
+            font-size: 2.0em;
+            // @include m.fz_p-menu(20);
+            color: v.$color02;
+        }
+    }
+
+}

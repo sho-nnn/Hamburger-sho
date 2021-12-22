@@ -1,5 +1,6 @@
 @use "../../Foundation/variable" as v;
 @use "../Component/border" as b;
+@use "../../Foundation/mixin" as m;
 
 // セクション（テイクアウト）
 .p-section {
@@ -19,7 +20,7 @@
         margin-left: 3%;
     }
     &__title::before {
-        @include b.border-bottom;
+        @include m.border-bottom;
     }
     &__list {
         &__item {

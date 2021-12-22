@@ -1,14 +1,26 @@
-// サイドバーメニュー各ジャンル
-.p-sidebar__item {
-    .c-menu__title{
-        padding-bottom: 40px;
+@use "../../Foundation/variable" as v;
+@use "../Component/border" as b;
+
+
+.p-sidebar {
+    position: relative;
+    &__title {
+        position: absolute;
+        left: -300;
     }
-    .p-menu__list {
-        padding-left: 20px;
+    &__list {
+        &__item {
+
+        }
     }
 }
 
-// サイドバーメニュー全体
-.p-sidebar__list {
-    
+.p-sidebar::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 12%;
+    height: 100%;
+    background-color: v.$color05;
+    opacity: .5;
 }

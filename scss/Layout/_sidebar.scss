@@ -1,3 +1,5 @@
+@use "../Foundation/variable" as v;
+
 .l-sidebar {
-    background-color: red;
+    background-color: v.$color03;
 }

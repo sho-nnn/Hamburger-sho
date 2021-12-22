@@ -1,6 +1,8 @@
 // gridを使ってレイアウトを組んだ
 .container {
     display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
     header {
         grid-row: 1;
         grid-column: 1;

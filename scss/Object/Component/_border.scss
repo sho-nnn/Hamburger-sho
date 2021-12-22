@@ -1,12 +1,12 @@
-@use "../../Foundation/variable" as v;
+// @use "../../Foundation/variable" as v;
 
-// タイトル下の白ボーダー装飾
-@mixin border-bottom {
-    content: '';
-    position: absolute;
-    bottom: -20px;/*線の上下位置*/
-    display: inline-block;
-    width: 33.89px;/*線の長さ*/
-    height: 4px;/*線の太さ*/
-    background-color: v.$color01;/*線の色*/
-  }
+// // タイトル下の白ボーダー装飾
+// @mixin border-bottom {
+//     content: '';
+//     position: absolute;
+//     bottom: -20px;/*線の上下位置*/
+//     display: inline-block;
+//     width: 33.89px;/*線の長さ*/
+//     height: 4px;/*線の太さ*/
+//     background-color: v.$color01;/*線の色*/
+//   }

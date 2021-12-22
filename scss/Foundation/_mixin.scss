@@ -1,0 +1,22 @@
+@use "../Foundation/variable" as v;
+
+// タイトル下の白ボーダー装飾
+@mixin border-bottom {
+    content: '';
+    position: absolute;
+    bottom: -20px;/*線の上下位置*/
+    display: inline-block;
+    width: 33.89px;/*線の長さ*/
+    height: 4px;/*線の太さ*/
+    background-color: v.$color01;/*線の色*/
+}
+
+@function get_p-menu($size, $viewport: 375) {
+    $rate: 100 / $viewport;
+    @return $rate * $size * 1vw;
+}
+
+@mixin fz_p-menu($font_size: 10) {
+    font-size: $font_size * 1px;
+    font-size: get_p-menu($font_size);
+  }

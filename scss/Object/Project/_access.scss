@@ -1,5 +1,6 @@
 @use "../../Foundation/variable" as v;
 @use "../Component/border" as b;
+@use "../../Foundation/mixin" as m;
 
 // 地図の部分全部
 .p-main__access {
@@ -16,7 +17,7 @@
             color:magenta;
         }
         &__title::before {
-            @include b.border-bottom;
+            @include m.border-bottom;
             bottom: 10px;
             width: 75px;
             height: 2px;
