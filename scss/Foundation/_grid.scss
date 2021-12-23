@@ -14,7 +14,8 @@
     aside {
         grid-row: 1 / 4;
         grid-column: 1;
-        display: none;
+        overflow-x: hidden;
+        left: 100%;
     }
     footer {
         grid-row: 3;
