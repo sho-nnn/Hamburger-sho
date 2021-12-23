@@ -10,3 +10,15 @@
     height: 4px;/*線の太さ*/
     background-color: v.$color07;/*線の色*/
 }
+
+// ブレイクポイントの設定
+$breakpoints: (
+    tab: "only screen and (min-width: 600px)",
+    pc: "only screen and (min-width: 1025px)",
+);
+
+@mixin media($breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
