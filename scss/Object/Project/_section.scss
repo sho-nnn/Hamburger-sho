@@ -3,36 +3,43 @@
 @use "../../Foundation/mixin" as m;
 
 // セクション（テイクアウト）
-.p-section {
-    position:relative; 
-    background:url(../../../images/front/article.brunch-menu_img01.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    width:100%;
-    padding-top:191.6417%;
-    background-size:cover;
-    margin-bottom: 6%;
-    &__title {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: 3%;
-        margin-left: 3%;
+.p-main__brunch-menu__list {
+    @include m.media(tab) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4%;
     }
-    &__title::before {
-        @include m.border-bottom;
-    }
-    &__list {
-        &__item {
-            padding-bottom: 3%;
+    .p-section {
+        position:relative; 
+        background:url(../../../images/front/article.brunch-menu_img01.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        padding-top:191.6417%;
+        background-size:cover;
+        margin-bottom: 6%;
+        &__title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 3%;
+            margin-left: 3%;
         }
+        &__title::before {
+            @include m.border-bottom;
+        }
+        &__list {
+            &__item {
+                padding-bottom: 3%;
+            }
+        }
+    }
+    .p-section02 {
+        background: url(../../../images/front/article.brunch-menu_img02.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
 }
 
-.p-section02 {
-    background: url(../../../images/front/article.brunch-menu_img02.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
 

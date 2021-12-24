@@ -116,12 +116,18 @@ body {
 
 .p-main__mainvisual {
   position: relative;
-  background-image: url(../../../images/front/mainvisual_img.png);
+  background-image: url(../../../images/front/mainvisual_sp_img.png);
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
   padding-top: 76%;
   background-size: cover;
+}
+@media only screen and (min-width: 600px) {
+  .p-main__mainvisual {
+    background-image: url(../../../images/front/mainvisual_tab_img.png);
+    padding-top: 34%;
+  }
 }
 .p-main__mainvisual .p-main__mainvisual__title {
   width: 100%;
@@ -202,6 +208,12 @@ body {
   background-position: center center;
   background-size: cover;
 }
+@media only screen and (min-width: 600px) {
+  .p-main__access {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../../images/front/access-map_img.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../../images/front/access-map_img.png);
+  }
+}
 .p-main__access__title {
   position: relative;
   font-size: 3rem;
@@ -220,7 +232,7 @@ body {
   /*線の太さ*/
   background-color: #EAEAEA;
   /*線の色*/
-  bottom: 10px;
+  bottom: 15%;
   width: 75px;
   height: 2px;
 }
@@ -291,7 +303,14 @@ body {
   padding: 0 3% 3% 3%;
 }
 
-.p-section {
+@media only screen and (min-width: 600px) {
+  .p-main__brunch-menu__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+  }
+}
+.p-main__brunch-menu__list .p-section {
   position: relative;
   background: url(../../../images/front/article.brunch-menu_img01.png);
   background-repeat: no-repeat;
@@ -301,14 +320,14 @@ body {
   background-size: cover;
   margin-bottom: 6%;
 }
-.p-section__title {
+.p-main__brunch-menu__list .p-section__title {
   position: absolute;
   top: 0;
   left: 0;
   margin-top: 3%;
   margin-left: 3%;
 }
-.p-section__title::before {
+.p-main__brunch-menu__list .p-section__title::before {
   content: "";
   position: absolute;
   bottom: -20px;
@@ -321,11 +340,10 @@ body {
   background-color: #EAEAEA;
   /*線の色*/
 }
-.p-section__list__item {
+.p-main__brunch-menu__list .p-section__list__item {
   padding-bottom: 3%;
 }
-
-.p-section02 {
+.p-main__brunch-menu__list .p-section02 {
   background: url(../../../images/front/article.brunch-menu_img02.png);
   background-repeat: no-repeat;
   background-position: center center;
