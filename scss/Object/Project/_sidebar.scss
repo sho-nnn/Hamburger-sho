@@ -1,5 +1,6 @@
 @use "../../Foundation/variable" as v;
 @use "../Component/border" as b;
+@use "../../Foundation/mixin" as m;
 
 
 .p-sidebar {
@@ -20,5 +21,8 @@
     height: 100%;
     background-color: v.$color05;
     opacity: .5;
+    @include m.media(pc) {
+        content: none;
+        }
 }
 
