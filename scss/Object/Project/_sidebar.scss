@@ -4,25 +4,24 @@
 
 
 .p-sidebar {
-    position: relative;
+    // position: relative;
     &__list {
         margin-top: 212px;
         &__item {
-
         }
     }
 }
 
-.p-sidebar::before {
-    content: '';
-    position: absolute;
-    display: inline-block;
-    width: 12%;
-    height: 100%;
-    background-color: v.$color05;
-    opacity: .5;
-    @include m.media(pc) {
-        content: none;
-        }
-}
+// .p-sidebar::before {
+//     content: '';
+//     position: absolute;
+//     display: inline-block;
+//     width: 12%;
+//     height: 100%;
+//     background-color: v.$color05;
+//     opacity: .5;
+//     @include m.media(pc) {
+//         content: none;
+//         }
+// }
 
