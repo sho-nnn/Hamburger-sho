@@ -5,11 +5,13 @@
 
 .p-sidebar {
     // position: relative;
+    // height: 100%;
     &__list {
-        margin-top: 212px;
+        margin-top: 50%;
         &__item {
         }
     }
+    
 }
 
 // .p-sidebar::before {

@@ -1,0 +1,53 @@
+@use "../../Foundation/variable" as v;
+
+.p-hamburger {
+	width           : 60px;
+	height          : 60px;
+	background-color: #2CB8D9;
+	position        : relative;
+	&::before,
+	&::after {
+		content   : "";
+		width     : v.$btnWidth;
+		height    : v.$btnHeight;
+		background: #fff;
+		position  : absolute;
+		left      : calc( 50% - ( #{v.$btnWidth} / 2 ) );
+		display   : block;
+		transition: transform 0.2s;
+	}
+	&::before {
+		top: 22px;
+	}
+	&::after {
+		top: 38px;
+	}
+	> span {
+		width          : v.$btnWidth;
+		height         : v.$btnHeight;
+		font-size      : 0;
+		background     : linear-gradient( to right, #fff, #fff ) repeat-x #fff;
+		background-size: auto v.$btnHeight;
+		position       : absolute;
+		left           : calc( 50% - ( #{v.$btnWidth} / 2 ) );
+		top            : 50%;
+		transition     : transform 0.2s;
+	}
+	&.is-open {
+		&::before {
+			transform: rotate( 45deg );
+			top      : 28px;
+		}
+		&::after {
+			transform: rotate( -45deg );
+			top      : 28px;
+		}
+		> span {
+			background: none;
+		}
+	}
+}
+
+body.is-open {
+	position: fixed;
+}

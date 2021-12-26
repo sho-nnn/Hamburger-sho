@@ -1,17 +1,31 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
 
 .p-header {
     display: grid;
     place-items: center;
     grid-row-gap: 38px;
     position: relative;
+    height: 217px;
+    @include m.media(pc) {
+        display: flex;
+        justify-content: space-between;
+    }
     &__title {
         margin: 40px 23% 0 23%;
+        @include m.media(pc) {
+            // margin: 66px 0 66px 4%;
+        }
     }
     &__search-form {
         display: flex;
         width: 85%;
         margin-bottom: 40px;
+        @include m.media(pc) {
+            margin: 0 .7% 0 0;
+            width: 35%;
+        }
         &__box {
             width: 71%;
             background-image: url(../../images/front/header_search-form_icon_img.png);
@@ -33,6 +47,11 @@
         right: 0;
         font-size: v.$fz03;
         margin: 14px 16px 0 0;
+        @include m.media(pc) {
+            right: -12%;
+            top: 35%;
+            font-size: 1.77vw;
+        }
     }
 }
 
