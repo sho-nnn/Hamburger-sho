@@ -4,15 +4,40 @@
 
 
 .p-sidebar {
-    // position: relative;
-    // height: 100%;
+    position: relative;
+    left: 100%;
+    transition: all 300ms 0s ease;
+    width: 40%;
+    z-index: 2000;
+    @include m.media(pc) {
+        left: 0;
+        width: 100%;
+    }
+    &__btn {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        font-size: 70px;
+        color: v.$color02;
+        @include m.media(pc) {
+        display: none;
+        }
+    }
     &__list {
-        margin-top: 50%;
+        margin-top: 130px;
         &__item {
         }
     }
-    
+    &.is-open {
+        left: 60%;
+    }
+
 }
+
+// aside {
+//     left: 100%;
+//     left: 70%;
+// }
 
 // .p-sidebar::before {
 //     content: '';

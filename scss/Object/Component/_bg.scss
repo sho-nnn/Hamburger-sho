@@ -1,4 +1,5 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
 
 // メインビジュアル背景
 .c-mainvisual__bg {
@@ -19,6 +20,12 @@
     background: rgba(0, 0, 0, .5);
     width: 100%;
     height: 100%;
-    display: none;
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    @include m.media(pc) {
+        background: transparent;
+    }
 }
 

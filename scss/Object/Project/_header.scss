@@ -7,7 +7,7 @@
     place-items: center;
     grid-row-gap: 38px;
     position: relative;
-    height: 217px;
+    // height: 217px;
     @include m.media(pc) {
         display: flex;
         justify-content: space-between;
@@ -15,7 +15,7 @@
     &__title {
         margin: 40px 23% 0 23%;
         @include m.media(pc) {
-            // margin: 66px 0 66px 4%;
+            margin: 40px 0 40px 4%;
         }
     }
     &__search-form {
@@ -46,11 +46,14 @@
         top: 0;
         right: 0;
         font-size: v.$fz03;
+        font-size: 30px;
         margin: 14px 16px 0 0;
         @include m.media(pc) {
             right: -12%;
-            top: 35%;
+            top: 30%;
             font-size: 1.77vw;
+            z-index: 3000;
+            pointer-events: none;
         }
     }
 }
