@@ -188,16 +188,39 @@ body {
 .p-menu__title {
   color: #707070;
   margin-bottom: 30px;
-  margin-left: 26%;
-  font-size: 1.25vw;
+  margin-left: 12%;
+  font-size: 6.4vw;
+}
+@media only screen and (min-width: 600px) {
+  .p-menu__title {
+    font-size: 2.87vw;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .p-menu__title {
+    font-size: 1.25vw;
+    margin-left: 26%;
+  }
 }
 .p-menu__list {
   line-height: 2;
-  margin: 0 1% 34px 32%;
+  margin: 0 1% 34px 20%;
+  font-size: 5.3vw;
+}
+@media only screen and (min-width: 600px) {
+  .p-menu__list {
+    font-size: 2.39vw;
+    margin: 0 16% 34px 18%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .p-menu__list {
+    font-size: 1.04vw;
+    margin: 0 1% 34px 32%;
+  }
 }
 .p-menu__list__item {
   font-family: "M+ 1m", sans-serif;
-  font-size: 1.04vw;
   color: #707070;
 }
 
@@ -328,8 +351,13 @@ body {
   left: 100%;
   -webkit-transition: all 300ms 0s ease;
   transition: all 300ms 0s ease;
-  width: 40%;
+  width: 87%;
   z-index: 2000;
+}
+@media only screen and (min-width: 600px) {
+  .p-sidebar {
+    width: 44%;
+  }
 }
 @media only screen and (min-width: 1025px) {
   .p-sidebar {
@@ -338,10 +366,11 @@ body {
   }
 }
 .p-sidebar__btn {
+  display: inline;
   position: absolute;
-  top: 5px;
+  top: -30px;
   right: 20px;
-  font-size: 70px;
+  font-size: 100px;
   color: #707070;
 }
 @media only screen and (min-width: 1025px) {
@@ -349,16 +378,33 @@ body {
     display: none;
   }
 }
+@media only screen and (min-width: 600px) {
+  .p-sidebar__btn {
+    font-size: 70px;
+    top: -15px;
+  }
+}
 .p-sidebar__list {
-  margin-top: 130px;
+  margin-top: 185px;
+}
+@media only screen and (min-width: 1025px) {
+  .p-sidebar__list {
+    margin-top: 130px;
+  }
 }
 .p-sidebar.is-open {
-  left: 60%;
+  left: 13%;
+}
+@media only screen and (min-width: 600px) {
+  .p-sidebar.is-open {
+    left: 56%;
+  }
 }
 
 .p-footer {
-  background-image: url(../images/front/footer_img03.jpg);
+  background-image: url(../../../images/front/footer_img.png);
   text-align: center;
+  vertical-align: top;
 }
 .p-footer__list {
   display: -webkit-box;

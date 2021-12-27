@@ -7,29 +7,43 @@
     position: relative;
     left: 100%;
     transition: all 300ms 0s ease;
-    width: 40%;
+    width: 87%;
     z-index: 2000;
+    @include m.media(tab) {
+        width: 44%;
+    }
     @include m.media(pc) {
         left: 0;
         width: 100%;
     }
     &__btn {
+        display: inline;
         position: absolute;
-        top: 5px;
+        top: -30px;
         right: 20px;
-        font-size: 70px;
+        font-size: 100px;
         color: v.$color02;
         @include m.media(pc) {
-        display: none;
+            display: none;
+        }
+        @include m.media(tab) {
+            font-size: 70px;
+            top: -15px;
         }
     }
     &__list {
-        margin-top: 130px;
+        margin-top: 185px;
+            @include m.media(pc) {
+                margin-top: 130px;
+                }
         &__item {
         }
     }
     &.is-open {
-        left: 60%;
+        left: 13%;
+        @include m.media(tab) {
+            left: 56%;
+        }
     }
 
 }
