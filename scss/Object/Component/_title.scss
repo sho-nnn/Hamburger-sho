@@ -18,15 +18,22 @@
 
 // サブタイトル（h3）
 .c-subtitle02 {
-    font-size: v.$fz09;
     color: v.$color01;
     font-family: v.$font-title;
     font-weight: bold;
 }
 
+// サブタイトル（h4）
+.c-subtitle03 {
+    color: v.$color01;
+    font-family: v.$font-base;
+    font-weight: bold;
+    font-size: v.$fz02;
+}
+
 
 // メニュー部分タイトル（dt）
-.c-subtitle03 {
+.c-subtitle04 {
     font-size: v.$fz04;
     color: v.$color04;
     font-family: v.$font-base;

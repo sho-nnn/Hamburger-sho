@@ -1,0 +1,30 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+.c-card {
+    background-color: v.$color08;
+    &__title {
+        font-family: v.$font-base;
+        padding: 4% 0 4% 4%;
+        font-size: v.$fz03;
+    }
+    &__subtitle {
+        padding: 0 0 2% 4%;
+    }
+    &__text {
+        color: v.$color01;
+        font-size: v.$fz02;
+        width: 73%;
+        margin-left:4%;
+    }
+    &__button {
+        text-align: center;
+        padding: 10% 0;
+        & > a {
+            width: 50%;
+            background-color: v.$color01;
+            padding: 10px 42px;
+            border-radius: 15px;
+        }
+    }
+}

@@ -93,13 +93,19 @@ body {
 }
 
 .c-subtitle02 {
-  font-size: 4.1rem;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
 .c-subtitle03 {
+  color: #FFFFFF;
+  font-family: "M+ 1m", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.c-subtitle04 {
   font-size: 2.2rem;
   color: #3C2A10;
   font-family: "M+ 1m", sans-serif;
@@ -142,6 +148,34 @@ body {
   }
 }
 
+.c-card {
+  background-color: #3C2B1C;
+}
+.c-card__title {
+  font-family: "M+ 1m", sans-serif;
+  padding: 4% 0 4% 4%;
+  font-size: 2rem;
+}
+.c-card__subtitle {
+  padding: 0 0 2% 4%;
+}
+.c-card__text {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  width: 73%;
+  margin-left: 4%;
+}
+.c-card__button {
+  text-align: center;
+  padding: 10% 0;
+}
+.c-card__button > a {
+  width: 50%;
+  background-color: #FFFFFF;
+  padding: 10px 42px;
+  border-radius: 15px;
+}
+
 .p-footer__copyright {
   font-size: 1.4rem;
   color: #FFFFFF;
@@ -178,6 +212,11 @@ body {
   left: 0;
   color: #FFFFFF;
   padding-left: 7%;
+}
+
+.p-main__mainvisual__archive {
+  background-image: url(../../../images/archive/archive_mainvisual_sp_img.png);
+  background-position: left;
 }
 
 .p-menu__title {
@@ -483,5 +522,23 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.p-cheeseburger__title {
+  font-size: 2.8rem;
+  color: #3C2A10;
+  padding-bottom: 4%;
+}
+.p-cheeseburger__text {
+  margin-bottom: 2%;
+  font-size: 1.6rem;
+}
+.p-cheeseburger__card {
+  margin-bottom: 20px;
+}
+.p-cheeseburger__card > img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
 }
 /*# sourceMappingURL=style.css.map */

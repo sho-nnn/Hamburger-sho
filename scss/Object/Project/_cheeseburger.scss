@@ -1,0 +1,23 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+.p-cheeseburger {
+    &__title {
+        font-size: v.$fz_burger-description_title;
+        color: v.$color04;
+        padding-bottom: 4%;
+    }
+    &__text {
+        margin-bottom: 2%;
+        font-size: v.$fz02;
+    }
+    &__card {
+        margin-bottom: 20px;
+        & > img {
+            width: 100%;
+            height: auto;
+            vertical-align: bottom;
+        }
+
+    }
+}

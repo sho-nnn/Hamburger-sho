@@ -1,6 +1,7 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
+// フロントページのメインビジュアル
 .p-main__mainvisual {
     position: relative;
     background-image: url(../../../images/front/mainvisual_sp_img.png);
@@ -25,4 +26,10 @@
         color: v.$color01;
         padding-left: 7%;
     }
+}
+
+// アーカイブページのメインビジュアル
+.p-main__mainvisual__archive {
+    background-image: url(../../../images/archive/archive_mainvisual_sp_img.png);
+    background-position: left;
 }
