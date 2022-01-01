@@ -12,12 +12,11 @@
         font-size: v.$fz02;
     }
     &__card {
-        margin-bottom: 20px;
-        & > img {
+        margin-top: 20px;
+        &__link > img {
             width: 100%;
             height: auto;
             vertical-align: bottom;
         }
-
     }
 }

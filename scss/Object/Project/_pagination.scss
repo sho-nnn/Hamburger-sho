@@ -1,0 +1,33 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+.p-main__pagination {
+    display: flex;
+    justify-content: space-between;
+    font-size: v.$fz02;
+    color: v.$color02;
+    margin: 0 5% 5% 5%;
+    font-weight: bold;
+    font-family: v.$font-title;
+    color: v.$color02;
+    &__sp {
+        @include m.media(tab) {
+            display: none;
+        }
+        @include m.media(pc) {
+            display: none;
+        }
+    }
+    &__pc {
+        padding:10px 15px;
+        border:1px #ccc solid;
+        color:#000053;
+        background-color: v.$color01;
+        @include m.media(sp) {
+            display: none;
+        }
+    }
+}
+
+
+

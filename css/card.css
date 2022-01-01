@@ -19,10 +19,13 @@
   text-align: center;
   padding: 10% 0;
 }
-.c-card__button > a {
+.c-card__button__text {
   width: 50%;
   background-color: #FFFFFF;
   padding: 10px 42px;
-  border-radius: 1px;
+  border-radius: 20px;
+  font-size: 1.6rem;
+  color: #707070;
+  font-weight: bold;
 }
 /*# sourceMappingURL=card.css.map */

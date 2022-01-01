@@ -13,6 +13,7 @@
 
 // ブレイクポイントの設定
 $breakpoints: (
+    sp: "only screen and (max-width: 599px)",
     tab: "only screen and (min-width: 600px)",
     pc: "only screen and (min-width: 1025px)",
 );

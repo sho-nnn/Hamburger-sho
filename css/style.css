@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   display: grid;
   height: 100vh;
@@ -117,7 +121,7 @@ body {
 }
 
 .c-wrapper {
-  margin: 5% 5% 49px 5%;
+  margin: 5% 5% 10% 5%;
 }
 
 .c-mainvisual__bg {
@@ -169,11 +173,14 @@ body {
   text-align: center;
   padding: 10% 0;
 }
-.c-card__button > a {
+.c-card__button__text {
   width: 50%;
   background-color: #FFFFFF;
   padding: 10px 42px;
-  border-radius: 15px;
+  border-radius: 20px;
+  font-size: 1.6rem;
+  color: #707070;
+  font-weight: bold;
 }
 
 .p-footer__copyright {
@@ -216,6 +223,7 @@ body {
 
 .p-main__mainvisual__archive {
   background-image: url(../../../images/archive/archive_mainvisual_sp_img.png);
+  background-color: #000000;
   background-position: left;
 }
 
@@ -534,11 +542,47 @@ body {
   font-size: 1.6rem;
 }
 .p-cheeseburger__card {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.p-cheeseburger__card > img {
+.p-cheeseburger__card__link > img {
   width: 100%;
   height: auto;
   vertical-align: bottom;
+}
+
+.p-main__pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.6rem;
+  color: #707070;
+  margin: 0 5% 5% 5%;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+}
+@media only screen and (min-width: 600px) {
+  .p-main__pagination__sp {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .p-main__pagination__sp {
+    display: none;
+  }
+}
+.p-main__pagination__pc {
+  padding: 10px 15px;
+  border: 1px #ccc solid;
+  color: #000053;
+  background-color: #FFFFFF;
+}
+@media only screen and (max-width: 599px) {
+  .p-main__pagination__pc {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -20,11 +20,14 @@
     &__button {
         text-align: center;
         padding: 10% 0;
-        & > a {
+        &__text {
             width: 50%;
             background-color: v.$color01;
             padding: 10px 42px;
-            border-radius: 15px;
+            border-radius: 20px;
+            font-size: v.$fz02;
+            color: v.$color02;
+            font-weight: bold;
         }
     }
 }
