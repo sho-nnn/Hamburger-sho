@@ -1,22 +1,34 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
-.p-cheeseburger {
-    &__title {
-        font-size: v.$fz_burger-description_title;
-        color: v.$color04;
-        padding-bottom: 4%;
-    }
-    &__text {
-        margin-bottom: 2%;
-        font-size: v.$fz02;
-    }
-    &__card {
-        margin-top: 20px;
-        &__link > img {
-            width: 100%;
-            height: auto;
-            vertical-align: bottom;
-        }
-    }
-}
+// .p-cheeseburger {
+//     &__title {
+//         font-size: v.$fz_burger-description_title;
+//         color: v.$color04;
+//         padding-bottom: 4%;
+//     }
+//     &__text {
+//         margin-bottom: 2%;
+//         font-size: v.$fz02;
+//     }
+//     &__card {
+//         margin-top: 20px;
+//         @include m.media(tab) {
+//             display: flex;
+//         }
+//         @include m.media(pc) {
+//             display: flex;
+//         }
+//     }
+//         &__link > img {
+//             width: 30px;
+//             height: auto;
+//             vertical-align: bottom;
+//             @include m.media(tab) {
+//                 width: 50%;
+//             }
+//             @include m.media(pc) {
+//                 display: flex;
+//             }
+//         }
+//     }

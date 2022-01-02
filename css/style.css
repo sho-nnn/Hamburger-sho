@@ -532,24 +532,6 @@ a {
   background-size: cover;
 }
 
-.p-cheeseburger__title {
-  font-size: 2.8rem;
-  color: #3C2A10;
-  padding-bottom: 4%;
-}
-.p-cheeseburger__text {
-  margin-bottom: 2%;
-  font-size: 1.6rem;
-}
-.p-cheeseburger__card {
-  margin-top: 20px;
-}
-.p-cheeseburger__card__link > img {
-  width: 100%;
-  height: auto;
-  vertical-align: bottom;
-}
-
 .p-main__pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -579,10 +561,65 @@ a {
   border: 1px #ccc solid;
   color: #000053;
   background-color: #FFFFFF;
+  margin: 0 5% 5% 5%;
 }
 @media only screen and (max-width: 599px) {
   .p-main__pagination__pc {
     display: none;
+  }
+}
+
+.p-burger-outline__title {
+  font-size: 2.8rem;
+  color: #3C2A10;
+  padding-bottom: 4%;
+}
+.p-burger-outline__text {
+  margin-bottom: 2%;
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .p-burger-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .p-burger-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .p-burger-card__link {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+.p-burger-card__link .c-img__burger01 {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+@media only screen and (min-width: 1025px) {
+  .p-burger-card__link .c-img__burger01 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .p-burger-card .c-card {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .p-burger-card .c-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=style.css.map */

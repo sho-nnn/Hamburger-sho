@@ -1,0 +1,33 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+.p-burger-card {
+    // width: 100%;
+    @include m.media(tab) {
+        display: flex;
+    }
+    @include m.media(pc) {
+        display: flex;
+    }
+    &__link {
+        @include m.media(tab) {
+            flex-basis: 50%;
+        }
+        .c-img__burger01 {
+            width: 100%;
+            height: auto;
+            vertical-align: bottom;
+            @include m.media(pc) {
+                width: 50%;
+            }
+        }
+    }
+    .c-card {
+        @include m.media(tab) {
+            flex-basis: 50%;
+        }
+        @include m.media(pc) {
+            display: flex;
+        }
+    }
+}

@@ -23,6 +23,7 @@
         border:1px #ccc solid;
         color:#000053;
         background-color: v.$color01;
+        margin: 0 5% 5% 5%;
         @include m.media(sp) {
             display: none;
         }
