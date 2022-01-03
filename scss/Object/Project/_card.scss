@@ -2,32 +2,39 @@
 @use "../../Foundation/mixin" as m;
 
 .p-burger-card {
-    // width: 100%;
     @include m.media(tab) {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     @include m.media(pc) {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     &__link {
         @include m.media(tab) {
-            flex-basis: 50%;
+            pointer-events: none;
         }
-        .c-img__burger01 {
+        @include m.media(pc) {
+            pointer-events: none;
+        }
+        .c-img__burger {
             width: 100%;
             height: auto;
             vertical-align: bottom;
+            @include m.media(tab) {
+                height: 100%;
+                object-fit: cover;
+            }
             @include m.media(pc) {
-                width: 50%;
+                height: 100%;
+                object-fit: cover;
             }
         }
     }
     .c-card {
         @include m.media(tab) {
-            flex-basis: 50%;
         }
         @include m.media(pc) {
-            display: flex;
         }
     }
 }

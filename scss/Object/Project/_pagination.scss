@@ -10,6 +10,11 @@
     font-weight: bold;
     font-family: v.$font-title;
     color: v.$color02;
+    @include m.media(tab) {
+        justify-content: center;
+    }
+    @include m.media(pc) {
+    }
     &__sp {
         @include m.media(tab) {
             display: none;
@@ -19,15 +24,16 @@
         }
     }
     &__pc {
-        padding:10px 15px;
+        padding: 7px 13px;
         border:1px #ccc solid;
         color:#000053;
         background-color: v.$color01;
-        margin: 0 5% 5% 5%;
+        margin-left: 1%;
         @include m.media(sp) {
             display: none;
         }
     }
+    
 }
 
 

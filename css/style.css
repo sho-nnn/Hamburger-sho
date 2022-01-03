@@ -547,6 +547,13 @@ a {
   color: #707070;
 }
 @media only screen and (min-width: 600px) {
+  .p-main__pagination {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (min-width: 600px) {
   .p-main__pagination__sp {
     display: none;
   }
@@ -557,16 +564,20 @@ a {
   }
 }
 .p-main__pagination__pc {
-  padding: 10px 15px;
+  padding: 7px 13px;
   border: 1px #ccc solid;
   color: #000053;
   background-color: #FFFFFF;
-  margin: 0 5% 5% 5%;
+  margin-left: 1%;
 }
 @media only screen and (max-width: 599px) {
   .p-main__pagination__pc {
     display: none;
   }
+}
+
+.p-main__burger__card {
+  margin-top: 5%;
 }
 
 .p-burger-outline__title {
@@ -581,45 +592,43 @@ a {
 
 @media only screen and (min-width: 600px) {
   .p-burger-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media only screen and (min-width: 1025px) {
   .p-burger-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media only screen and (min-width: 600px) {
   .p-burger-card__link {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    pointer-events: none;
   }
 }
-.p-burger-card__link .c-img__burger01 {
+@media only screen and (min-width: 1025px) {
+  .p-burger-card__link {
+    pointer-events: none;
+  }
+}
+.p-burger-card__link .c-img__burger {
   width: 100%;
   height: auto;
   vertical-align: bottom;
 }
-@media only screen and (min-width: 1025px) {
-  .p-burger-card__link .c-img__burger01 {
-    width: 50%;
-  }
-}
 @media only screen and (min-width: 600px) {
-  .p-burger-card .c-card {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+  .p-burger-card__link .c-img__burger {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .p-burger-card .c-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .p-burger-card__link .c-img__burger {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 /*# sourceMappingURL=style.css.map */
