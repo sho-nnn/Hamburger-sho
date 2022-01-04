@@ -5,15 +5,18 @@
     display: flex;
     justify-content: space-between;
     font-size: v.$fz02;
-    color: v.$color02;
     margin: 0 5% 5% 5%;
-    font-weight: bold;
     font-family: v.$font-title;
     color: v.$color02;
     @include m.media(tab) {
+        font-weight: bold;
         justify-content: center;
     }
     @include m.media(pc) {
+        font-weight: bold;
+    }
+    a {
+        color: v.$color02;
     }
     &__sp {
         @include m.media(tab) {
@@ -24,16 +27,27 @@
         }
     }
     &__pc {
-        padding: 7px 13px;
-        border:1px #ccc solid;
-        color:#000053;
         background-color: v.$color01;
+        padding: 7px 13px;
+        border:1px v.$color02 solid;
+        color:v.$color02;
         margin-left: 1%;
         @include m.media(sp) {
             display: none;
         }
     }
-    
+    &__pc:nth-child(3),
+    &__pc:nth-child(4),
+    &__pc:nth-child(14) {
+        border: inherit;
+    }
+    &__pc:nth-child(5) {
+        background-color: v.$color08;
+        & > a {
+            color: v.$color01;
+        }
+    }
+
 }
 
 

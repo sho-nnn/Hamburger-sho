@@ -1,1 +1,5 @@
 @use "../../Foundation/variable" as v;
+
+.p-main {
+    background-color: v.$main_bg;
+}

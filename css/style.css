@@ -160,14 +160,45 @@ a {
   padding: 4% 0 4% 4%;
   font-size: 2rem;
 }
+@media only screen and (min-width: 600px) {
+  .c-card__title {
+    padding: 4% 0 4% 7%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .c-card__title {
+    padding: 4% 0 4% 7%;
+  }
+}
 .c-card__subtitle {
   padding: 0 0 2% 4%;
 }
+@media only screen and (min-width: 600px) {
+  .c-card__subtitle {
+    padding: 0 0 2% 7%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .c-card__subtitle {
+    padding: 0 0 2% 7%;
+  }
+}
 .c-card__text {
   color: #FFFFFF;
+  font-family: "M+ 1m", sans-serif;
   font-size: 1.6rem;
   width: 73%;
   margin-left: 4%;
+}
+@media only screen and (min-width: 600px) {
+  .c-card__text {
+    margin-left: 7%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .c-card__text {
+    margin-left: 7%;
+  }
 }
 .c-card__button {
   text-align: center;
@@ -181,6 +212,12 @@ a {
   font-size: 1.6rem;
   color: #707070;
   font-weight: bold;
+}
+@media only screen and (min-width: 1025px) {
+  .c-card__button__text {
+    border-radius: 30px;
+    padding: 20px 15%;
+  }
 }
 
 .p-footer__copyright {
@@ -474,6 +511,10 @@ a {
   left: 100%;
 }
 
+.p-main {
+  background-color: #FFFDFA;
+}
+
 .p-takeout-menu {
   background-color: rgba(255, 255, 255, 0.7);
   margin: 0 3% 0 3%;
@@ -540,18 +581,25 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 1.6rem;
-  color: #707070;
   margin: 0 5% 5% 5%;
-  font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #707070;
 }
 @media only screen and (min-width: 600px) {
   .p-main__pagination {
+    font-weight: bold;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+@media only screen and (min-width: 1025px) {
+  .p-main__pagination {
+    font-weight: bold;
+  }
+}
+.p-main__pagination a {
+  color: #707070;
 }
 @media only screen and (min-width: 600px) {
   .p-main__pagination__sp {
@@ -564,10 +612,10 @@ a {
   }
 }
 .p-main__pagination__pc {
-  padding: 7px 13px;
-  border: 1px #ccc solid;
-  color: #000053;
   background-color: #FFFFFF;
+  padding: 7px 13px;
+  border: 1px #707070 solid;
+  color: #707070;
   margin-left: 1%;
 }
 @media only screen and (max-width: 599px) {
@@ -575,9 +623,18 @@ a {
     display: none;
   }
 }
+.p-main__pagination__pc:nth-child(3), .p-main__pagination__pc:nth-child(4), .p-main__pagination__pc:nth-child(14) {
+  border: inherit;
+}
+.p-main__pagination__pc:nth-child(5) {
+  background-color: #3C2B1C;
+}
+.p-main__pagination__pc:nth-child(5) > a {
+  color: #FFFFFF;
+}
 
 .p-main__burger__card {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .p-burger-outline__title {
