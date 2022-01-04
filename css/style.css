@@ -342,6 +342,8 @@ a {
 }
 .p-header__search-form__box {
   width: 71%;
+  position: relative;
+  text-indent: 13%;
   background-image: url(../../images/front/header_search-form_icon_img.png);
   background-repeat: no-repeat;
   background-position: 12px;
@@ -440,6 +442,7 @@ a {
 }
 @media only screen and (min-width: 1025px) {
   .p-sidebar {
+    will-change: transform;
     left: 0;
     width: 100%;
   }

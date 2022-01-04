@@ -33,9 +33,9 @@
     }
     &__list {
         margin-top: 185px;
-            @include m.media(pc) {
-                margin-top: 130px;
-                }
+        @include m.media(pc) {
+            margin-top: 130px;
+        }
         &__item {
         }
     }
@@ -45,7 +45,7 @@
             left: 56%;
         }
     }
-
+    
 }
 
 // aside {
