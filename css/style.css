@@ -16,9 +16,12 @@ a {
 }
 
 body.fixed {
-  width: 100%;
-  height: 100%;
   position: fixed;
+}
+
+aside.scroll {
+  height: 100vh;
+  overflow: auto;
 }
 
 .container {
@@ -486,14 +489,6 @@ body.fixed {
   .p-sidebar.is-open {
     right: -56%;
   }
-}
-
-.stop {
-  overflow: hidden;
-}
-
-.scroll {
-  overflow: scroll;
 }
 
 .p-footer {

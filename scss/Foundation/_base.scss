@@ -16,7 +16,11 @@ a {
 }
 
 body.fixed {
-    width: 100%;
-    height: 100%;
     position: fixed;
     }
+
+aside.scroll {
+    // width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
