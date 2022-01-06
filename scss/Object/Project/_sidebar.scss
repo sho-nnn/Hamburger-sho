@@ -5,7 +5,8 @@
 
 .p-sidebar {
     position: relative;
-    left: 100%;
+    // left: 100%;
+    right: -100%;
     transition: all 300ms 0s ease;
     width: 87%;
     z-index: 2000;
@@ -15,6 +16,7 @@
     @include m.media(pc) {
         left: 0;
         width: 100%;
+        transition: inherit;
     }
     &__btn {
         display: inline;
@@ -40,12 +42,11 @@
         }
     }
     &.is-open {
-        left: 13%;
+        right: -13%;
         @include m.media(tab) {
-            left: 56%;
+            right: -56%;
         }
     }
-    
 }
 
 // aside {

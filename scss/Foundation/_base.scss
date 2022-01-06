@@ -8,8 +8,15 @@ html {
 
 body {
     overflow-x: hidden;
+    // overflow: hidden;
 }
 
 a {
     text-decoration: none;
 }
+
+body.fixed {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    }
