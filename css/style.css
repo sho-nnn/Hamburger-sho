@@ -488,6 +488,14 @@ body.fixed {
   }
 }
 
+.stop {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
 .p-footer {
   background-image: url(../../../images/front/footer_img.png);
   text-align: center;
