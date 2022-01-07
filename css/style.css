@@ -491,6 +491,15 @@ aside.scroll {
   }
 }
 
+body.fixed {
+  position: fixed;
+}
+
+aside.scroll {
+  height: 100vh;
+  overflow: auto;
+}
+
 .p-footer {
   background-image: url(../../../images/front/footer_img.png);
   text-align: center;

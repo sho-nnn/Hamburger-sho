@@ -47,30 +47,14 @@
     }
 }
 
-// .stop {
-//     overflow: hidden;
-// }
+// メニュー展開時にサイドバーだけスクロールさせる設定
+body.fixed {
+    position: fixed;
+    }
 
-// .scroll {
-//     overflow: scroll;
-// }
+aside.scroll {
+    height: 100vh;
+    overflow: auto;
+}
 
-
-// aside {
-//     left: 100%;
-//     left: 70%;
-// }
-
-// .p-sidebar::before {
-//     content: '';
-//     position: absolute;
-//     display: inline-block;
-//     width: 12%;
-//     height: 100%;
-//     background-color: v.$color05;
-//     opacity: .5;
-//     @include m.media(pc) {
-//         content: none;
-//         }
-// }
 
