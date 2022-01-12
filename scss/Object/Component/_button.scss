@@ -1,4 +1,5 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
 
 // 検索ボタン（原型）
 .c-button {
@@ -23,6 +24,12 @@ font-size: 1.6vw;
     font-size: v.$fz02;
     font-weight: bold;
     font-family: v.$font-base;
+    @include m.media(tab) {
+        width: 50%;
+    }
+    @include m.media(pc) {
+        width: 30%;
+    }
 }
 
 
