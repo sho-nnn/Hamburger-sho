@@ -146,6 +146,26 @@ aside.scroll {
   font-weight: bold;
 }
 
+.c-title--h2--single {
+  font-size: 3.6rem;
+}
+
+.c-title--h3--single {
+  font-size: 2.8rem;
+}
+
+.c-title--h4--single {
+  font-size: 2rem;
+}
+
+.c-title--h5--single {
+  font-size: 2rem;
+}
+
+.c-title--h6--single {
+  font-size: 2rem;
+}
+
 .c-text {
   font-family: "M+ 1m", sans-serif;
 }
@@ -506,14 +526,21 @@ aside.scroll {
 }
 @media only screen and (min-width: 600px) {
   .p-main__access {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../../images/front/access-map_img.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../../images/front/access-map_img.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../../images/front/access_map_pc_img.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../../images/front/access_map_pc_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1025px) {
   .p-main__access {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.29)), to(rgba(0, 0, 0, 0.29))), url(../../../images/front/access-map_img.png);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.29) 60%, rgba(0, 0, 0, 0.29) 100%), url(../../../images/front/access-map_img.png);
+    background: inherit;
+    background-image: url(../../../images/front/access_map_pc_img.png);
+    background-color: rgba(0, 0, 0, 0.29);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 }
 .p-main__access__title {
@@ -521,6 +548,12 @@ aside.scroll {
   font-size: 3rem;
   padding: 6% 0 6% 11%;
   color: #FFFFFF;
+}
+@media only screen and (min-width: 1025px) {
+  .p-main__access__title {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }
 .p-main__access__title::before {
   content: "";
@@ -546,6 +579,12 @@ aside.scroll {
   line-height: 2;
   color: #FFFFFF;
   height: auto;
+}
+@media only screen and (min-width: 1025px) {
+  .p-main__access__text {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }
 
 .p-sidebar {
@@ -771,7 +810,11 @@ aside.scroll {
   margin-top: 2%;
 }
 
+.p-main__conts--single {
+  font-size: 1.6rem;
+}
 .p-main__conts--single__title {
+  font-weight: bold;
   margin-bottom: 4%;
   font-family: "M+ 1m", sans-serif;
 }

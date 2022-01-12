@@ -39,3 +39,20 @@
     font-family: v.$font-base;
     font-weight: bold;
 }
+
+// シングルページ・Pageページのタイトル
+.c-title--h2--single {
+    font-size: v.$fz07;
+}
+.c-title--h3--single {
+font-size: v.$fz_burger-description_title;
+}
+.c-title--h4--single {
+    font-size: v.$fz03;
+}
+.c-title--h5--single {
+    font-size: v.$fz03;
+}
+.c-title--h6--single {
+    font-size: v.$fz03;
+}

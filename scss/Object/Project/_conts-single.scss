@@ -4,15 +4,19 @@
 // 後でコンポーネント化しなきゃ
 
 .p-main__conts--single {
+    font-size: v.$fz02;
     &__title {
+        font-weight: bold;
         margin-bottom: 4%;
         font-family: v.$font-base;
     }
     &__text {
         margin-bottom: 4%;
+        // font-size: v.$fz02;
     }
     &__blockquote {
         margin-bottom: 4%;
+        // font-size: v.$fz02;
         & > p {
             margin-bottom: 4%;
         }
@@ -27,6 +31,7 @@
         margin-bottom: 4%;
         & > p {
             margin-left: 2%;
+            // font-size: v.$fz02;
         }
     }
     &__topic:nth-child(2n) {
@@ -61,10 +66,12 @@
     &__list {
         margin-bottom: 4%;
         list-style-position: inside;
+        // font-size: v.$fz02;
     }
     &__code {
         padding: 4% 0;
         background: #F5F5F5;
+        // font-size: v.$fz02;
     }
     &__table {
         margin-top: 4%;
