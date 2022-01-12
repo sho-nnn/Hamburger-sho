@@ -39,6 +39,21 @@
     }
     &__img03 {
         margin-bottom: 4%;
+        & img {
+            margin-bottom: 4%;
+        }
+        @include m.media(tab) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 1%;
+            // row-gap: 2%;
+        }
+        @include m.media(pc) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 1%;
+            // row-gap: 1%;
+        }
     }
     &__list {
         margin-bottom: 4%;
@@ -56,6 +71,9 @@
     }
     &__btn {
         margin: 4% auto;
+        @include m.media(tab) {
+            margin-left: 0;
+        }
     }
     &__text--bold {
     }
