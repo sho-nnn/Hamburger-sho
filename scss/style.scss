@@ -38,6 +38,9 @@
 @forward "object/component/bg";
 @forward "object/component/border";
 @forward "object/component/card";
+@forward "object/component/blockquote";
+@forward "object/component/table";
+@forward "object/component/topic";
 // -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------
@@ -45,9 +48,9 @@
 @forward "object/project/copyright";
 @forward "object/project/mainvisual";
 @forward "object/project/menu";
-@forward "object/project/articles";
+// @forward "object/project/articles";
 @forward "object/project/comments";
-@forward "object/project/gallery";
+// @forward "object/project/gallery";
 @forward "object/project/profile";
 @forward "object/project/header";
 @forward "object/project/menu";
@@ -57,12 +60,13 @@
 @forward "object/project/footer";
 @forward "object/project/main";
 @forward "object/project/takeout-menu";
-@forward "object/project/section";
+@forward "object/project/front-section";
 @forward "object/project/map";
 @forward "object/project/hamburger";
 @forward "object/project/cheeseburger";
 @forward "object/project/pagination";
-@forward "object/project/burger";
+@forward "object/project/conts-archive";
+@forward "object/project/conts-single";
 @forward "object/project/outline";
 @forward "object/project/card";
 // -----------------------------------------------------------------

@@ -1,7 +1,7 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
-.p-burger-outline {
+.p-outline {
     &__title {
         font-size: v.$fz_burger-description_title;
         color: v.$color04;

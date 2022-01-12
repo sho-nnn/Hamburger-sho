@@ -12,4 +12,17 @@
 font-size: 1.6vw;
 }
 
+// シングルページのボタン
+.c-btn--single {
+    display: block;
+    width: 90%;
+    height: 81px;
+    border-radius: 20px;
+    background: linear-gradient(#f2ede9 0%, #ded8d3 100%);
+    border: 1px solid v.$color02;
+    font-size: v.$fz02;
+    font-weight: bold;
+    font-family: v.$font-base;
+}
+
 

@@ -1,0 +1,13 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+.c-img--single01 {
+    width: 100%;
+    height: 100%;
+}
+.c-img--single02 {
+    width: 70%;
+}
+.c-img--single03 {
+    width: 100%;
+}

@@ -2,7 +2,7 @@
 @use "../../Foundation/mixin" as m;
 
 // フロントページのメインビジュアル
-.p-main__mainvisual {
+.p-mainvisual {
     position: relative;
     background-image: url(../../../images/front/mainvisual_sp_img.png);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
         background-image: url(../../../images/front/mainvisual_tab_img.png);
         padding-top: 34%;
     }
-    .p-main__mainvisual__title {
+    .p-mainvisual__title {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -29,8 +29,17 @@
 }
 
 // アーカイブページのメインビジュアル
-.p-main__mainvisual__archive {
+.p-mainvisual--archive {
     background-image: url(../../../images/archive/archive_mainvisual_sp_img.png);
     background-color: v.$color05;
     background-position: left;
+}
+
+// シングルページのメインビジュアル
+.p-mainvisual--single {
+    background-image: url(../../../images/single/mainvisual_single_img.png);
+    background-color: v.$color05;
+    padding-top: 60%;
+    background-position: center;
+    background-size: cover;
 }

@@ -3,7 +3,7 @@
 @use "../../Foundation/mixin" as m;
 
 // セクション（テイクアウト）
-.p-main__brunch-menu__list {
+.p-main__conts--front__list {
     @include m.media(tab) {
         display: grid;
         grid-template-columns: 1fr 1fr;

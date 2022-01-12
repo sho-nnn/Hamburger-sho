@@ -1,0 +1,11 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+.c-table {
+    border: 1px solid v.$color02;
+    border-collapse:collapse;
+    width: 100%;
+    & td:first-child {
+        width: 30%;
+    }
+}

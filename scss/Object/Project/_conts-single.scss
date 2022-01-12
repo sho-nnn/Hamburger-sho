@@ -1,0 +1,62 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
+// 後でコンポーネント化しなきゃ
+
+.p-main__conts--single {
+    &__title {
+        margin-bottom: 4%;
+        font-family: v.$font-base;
+    }
+    &__text {
+        margin-bottom: 4%;
+    }
+    &__blockquote {
+        margin-bottom: 4%;
+        & > p {
+            margin-bottom: 4%;
+        }
+    }
+    &__img01 {
+        margin-bottom: 4%;
+    }
+    &__topic {
+        margin-bottom: 4%;
+        & > p {
+            margin-left: 2%;
+        }
+    }
+    &__topic:nth-child(2n) {
+            flex-direction: row-reverse;
+        & > p {
+            margin-left: 0;
+            margin-right: 2%;
+        }
+    }
+    &__img02 {
+        display: block;
+        margin: 0 auto 4% auto;
+    }
+    &__img03 {
+        margin-bottom: 4%;
+    }
+    &__list {
+        margin-bottom: 4%;
+        list-style-position: inside;
+    }
+    &__code {
+        padding: 4% 0;
+        background: #F5F5F5;
+    }
+    &__table {
+        margin-top: 4%;
+        & td {
+            padding: 2% 4%;
+        }
+    }
+    &__btn {
+        margin: 4% auto;
+    }
+    &__text--bold {
+    }
+}
