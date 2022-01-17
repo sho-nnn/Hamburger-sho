@@ -1,4 +1,61 @@
-<!DOCTYPE html>
+<?php get_header(); ?>
+        <main class="l-main p-main">
+            <div class="p-mainvisual p-mainvisual--front">
+                <h2 class="c-subtitle01 p-mainvisual__title">ダミーサイト</h2>
+            </div>
+            <article class="c-wrapper p-main__conts--front">
+                    <ul class="p-main__conts--front__list">
+                        <li class="p-main__conts--front__item">
+                            <section class="p-section">
+                                <h2 class="c-subtitle01 p-section__title">Take Out</h2>
+                                <ul class="p-section__list">
+                                    <li class="p-section__list__item">
+                                        <dl class="p-takeout-menu">
+                                            <dt class="c-subtitle04 p-takeout-menu__title">Take OUT</dt>
+                                            <dd class="c-text p-takeout-menu__text">当店のテイクアウトで利用できる商品を掲載しています</dd>
+                                        </dl>
+                                    </li>
+                                    <li class="p-section__list__item">
+                                        <dl class="p-takeout-menu">
+                                            <dt class="c-subtitle04 p-takeout-menu__title">Take OUT</dt>
+                                            <dd class="c-text p-takeout-menu__text">当店のテイクアウトで利用できる商品を掲載しています</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li class="p-main__conts--front__item">
+                            <section class="p-section p-section02">
+                                <h2 class="c-subtitle01 p-section__title">Eat In</h2>
+                                <ul class="p-section__list">
+                                    <li class="p-section__list__item">
+                                        <dl class="p-takeout-menu">
+                                            <dt class="c-subtitle04 p-takeout-menu__title">Eat In</dt>
+                                            <dd class="c-text p-takeout-menu__text">当店のテイクアウトで利用できる商品を掲載しています</dd>
+                                        </dl>
+                                    </li>
+                                    <li class="p-section__list__item">
+                                        <dl class="p-takeout-menu">
+                                            <dt class="c-subtitle04 p-takeout-menu__title">Eat In</dt>
+                                            <dd class="c-text p-takeout-menu__text">当店のテイクアウトで利用できる商品を掲載していますああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                    </ul>
+            </article>
+            <section class="p-main__access">
+                    <h2 class="c-subtitle01 p-main__access__title">見出しが入ります</h2>
+                    <p class="c-text p-main__access__text">
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    </p>
+            </section>
+        </main>
+        <?php get_sidebar(); ?>
+        <?php get_footer(); ?>
+        
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -118,7 +175,6 @@
                 </li>
             </ul>
         </aside>
-        <!-- <div class="l-menu__bg c-menu__bg"></div> -->
         <footer class="l-footer p-footer">
             <ul class="p-footer__list">
                 <li class="c-text p-footer__list__item">ショップ情報</li>
@@ -128,4 +184,4 @@
         </footer>
     </div>
 </body>
-</html>
+</html> -->

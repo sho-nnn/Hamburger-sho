@@ -343,7 +343,7 @@ aside.scroll {
 }
 @media only screen and (min-width: 600px) {
   .p-mainvisual {
-    background-image: url(../../../images/front/mainvisual_tab_img.png);
+    background-image: url(../images/front/mainvisual_tab_img.png);
     padding-top: 34%;
   }
 }
