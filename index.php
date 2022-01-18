@@ -55,7 +55,7 @@
         <?php get_sidebar(); ?>
         <?php get_footer(); ?>
         
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -184,4 +184,4 @@
         </footer>
     </div>
 </body>
-</html>
+</html> -->

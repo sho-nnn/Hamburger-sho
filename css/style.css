@@ -343,7 +343,6 @@ aside.scroll {
 }
 @media only screen and (min-width: 600px) {
   .p-mainvisual {
-    background-image: url(../images/front/mainvisual_tab_img.png);
     padding-top: 34%;
   }
 }
@@ -518,16 +517,16 @@ aside.scroll {
 .p-main__access {
   width: 100%;
   height: auto;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.29)), to(rgba(0, 0, 0, 0.29))), url(../../../images/front/access-map_img.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.29) 100%), url(../../../images/front/access-map_img.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.29)), to(rgba(0, 0, 0, 0.29))), url(/images/front/access-map_img.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.29) 100%), url(/images/front/access-map_img.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 @media only screen and (min-width: 600px) {
   .p-main__access {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../../images/front/access_map_pc_img.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../../images/front/access_map_pc_img.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/images/front/access_map_pc_img.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(/images/front/access_map_pc_img.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -536,7 +535,7 @@ aside.scroll {
 @media only screen and (min-width: 1025px) {
   .p-main__access {
     background: inherit;
-    background-image: url(../../../images/front/access_map_pc_img.png);
+    background-image: url(/images/front/access_map_pc_img.png);
     background-color: rgba(0, 0, 0, 0.29);
     background-repeat: no-repeat;
     background-position: center center;

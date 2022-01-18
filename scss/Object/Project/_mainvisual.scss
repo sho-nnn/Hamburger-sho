@@ -12,7 +12,7 @@
     padding-top: 76%;
     background-size: cover;
     @include m.media(tab) {
-        background-image: url(../../../images/front/mainvisual_tab_img.png);
+        // background-image: url(../../../images/front/mainvisual_tab_img.png);
         padding-top: 34%;
     }
     .p-mainvisual__title {
