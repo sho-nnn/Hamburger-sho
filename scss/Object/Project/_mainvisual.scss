@@ -4,7 +4,7 @@
 // フロントページのメインビジュアル
 .p-mainvisual {
     position: relative;
-    background-image: url(../../../images/front/mainvisual_sp_img.png);
+    background-image: url(../images/front/mainvisual_sp_img.png);
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
@@ -12,7 +12,7 @@
     padding-top: 76%;
     background-size: cover;
     @include m.media(tab) {
-        // background-image: url(../../../images/front/mainvisual_tab_img.png);
+        background-image: url(../images/front/mainvisual_tab_img.png);
         padding-top: 34%;
     }
     .p-mainvisual__title {
@@ -30,11 +30,11 @@
 
 // アーカイブページのメインビジュアル
 .p-mainvisual--archive {
-    background-image: url(../../../images/archive/archive_mainvisual_sp_img.png);
+    background-image: url(../images/archive/archive_mainvisual_sp_img.png);
     background-color: v.$color05;
     background-position: left;
     @include m.media(tab) {
-        background-image: url(../../../images/archive/mainvisual_archive_pc.png);
+        background-image: url(../images/archive/mainvisual_archive_pc.png);
         padding-top: 15%;
     }
     & span {
@@ -44,26 +44,26 @@
 
 // シングルページのメインビジュアル
 .p-mainvisual--single {
-    background-image: url(../../../images/single/mainvisual_single_img.png);
+    background-image: url(../images/single/mainvisual_single_img.png);
     background-color: v.$color05;
     padding-top: 60%;
     background-position: center;
     background-size: cover;
     @include m.media(tab) {
-        background-image: url(../../../images/single/mainvisual_single_pc.png);
+        background-image: url(../images/single/mainvisual_single_pc.png);
         padding-top: 32%;
     }
 }
 
 // Pageページのメインビジュアル
 .p-mainvisual--page {
-    background-image: url(../../../images/page/mainvisual_page_img.png);
+    background-image: url(../images/page/mainvisual_page_img.png);
     // background-color: v.$color05;
     padding-top: 60%;
     background-position: center;
     background-size: cover;
     @include m.media(tab) {
-        background-image: url(../../../images/page/mainvisual_page_pc_img.jpg);
+        background-image: url(../images/page/mainvisual_page_pc_img.jpg);
         padding-top: 32%;
     }
 }

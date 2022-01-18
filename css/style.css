@@ -334,7 +334,7 @@ aside.scroll {
 
 .p-mainvisual {
   position: relative;
-  background-image: url(../../../images/front/mainvisual_sp_img.png);
+  background-image: url(../images/front/mainvisual_sp_img.png);
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -343,6 +343,7 @@ aside.scroll {
 }
 @media only screen and (min-width: 600px) {
   .p-mainvisual {
+    background-image: url(../images/front/mainvisual_tab_img.png);
     padding-top: 34%;
   }
 }
@@ -363,13 +364,13 @@ aside.scroll {
 }
 
 .p-mainvisual--archive {
-  background-image: url(../../../images/archive/archive_mainvisual_sp_img.png);
+  background-image: url(../images/archive/archive_mainvisual_sp_img.png);
   background-color: #000000;
   background-position: left;
 }
 @media only screen and (min-width: 600px) {
   .p-mainvisual--archive {
-    background-image: url(../../../images/archive/mainvisual_archive_pc.png);
+    background-image: url(../images/archive/mainvisual_archive_pc.png);
     padding-top: 15%;
   }
 }
@@ -378,7 +379,7 @@ aside.scroll {
 }
 
 .p-mainvisual--single {
-  background-image: url(../../../images/single/mainvisual_single_img.png);
+  background-image: url(../images/single/mainvisual_single_img.png);
   background-color: #000000;
   padding-top: 60%;
   background-position: center;
@@ -386,20 +387,20 @@ aside.scroll {
 }
 @media only screen and (min-width: 600px) {
   .p-mainvisual--single {
-    background-image: url(../../../images/single/mainvisual_single_pc.png);
+    background-image: url(../images/single/mainvisual_single_pc.png);
     padding-top: 32%;
   }
 }
 
 .p-mainvisual--page {
-  background-image: url(../../../images/page/mainvisual_page_img.png);
+  background-image: url(../images/page/mainvisual_page_img.png);
   padding-top: 60%;
   background-position: center;
   background-size: cover;
 }
 @media only screen and (min-width: 600px) {
   .p-mainvisual--page {
-    background-image: url(../../../images/page/mainvisual_page_pc_img.jpg);
+    background-image: url(../images/page/mainvisual_page_pc_img.jpg);
     padding-top: 32%;
   }
 }
@@ -484,7 +485,7 @@ aside.scroll {
   width: 71%;
   position: relative;
   text-indent: 45px;
-  background-image: url(../../images/front/header_search-form_icon_img.png);
+  background-image: url(../images/front/header_search-form_icon_img.png);
   background-repeat: no-repeat;
   background-position: 12px;
 }
@@ -517,16 +518,16 @@ aside.scroll {
 .p-main__access {
   width: 100%;
   height: auto;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.29)), to(rgba(0, 0, 0, 0.29))), url(/images/front/access-map_img.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.29) 100%), url(/images/front/access-map_img.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.6)), color-stop(50%, rgba(0, 0, 0, 0.29)), to(rgba(0, 0, 0, 0.29))), url(../images/front/access-map_img.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.29) 100%), url(../images/front/access-map_img.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 @media only screen and (min-width: 600px) {
   .p-main__access {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/images/front/access_map_pc_img.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(/images/front/access_map_pc_img.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../images/front/access_map_pc_img.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../images/front/access_map_pc_img.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -535,7 +536,7 @@ aside.scroll {
 @media only screen and (min-width: 1025px) {
   .p-main__access {
     background: inherit;
-    background-image: url(/images/front/access_map_pc_img.png);
+    background-image: url(../images/front/access_map_pc_img.png);
     background-color: rgba(0, 0, 0, 0.29);
     background-repeat: no-repeat;
     background-position: center center;
@@ -653,7 +654,7 @@ aside.scroll {
 }
 
 .p-footer {
-  background-image: url(../../../images/front/footer_img.png);
+  background-image: url(../images/front/footer_img.png);
   text-align: center;
   vertical-align: top;
 }
@@ -707,7 +708,7 @@ aside.scroll {
 }
 .p-main__conts--front__list .p-section {
   position: relative;
-  background: url(../../../images/front/article.brunch-menu_img01.png);
+  background: url(../images/front/article.brunch-menu_img01.png);
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -739,7 +740,7 @@ aside.scroll {
   padding-bottom: 3%;
 }
 .p-main__conts--front__list .p-section02 {
-  background: url(../../../images/front/article.brunch-menu_img02.png);
+  background: url(../images/front/article.brunch-menu_img02.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

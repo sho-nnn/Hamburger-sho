@@ -26,6 +26,7 @@
 
     }
     add_action( 'wp_enqueue_scripts', 'wpbeg_script' );
+
     // function wpbeg_script() {
     //     wp_enqueue_style( 'mplus1p', '//fonts.googleapis.com/earlyaccess/mplus1p.css', array() );
     //     wp_enqueue_style( 'Sacramento', '//fonts.googleapis.com/css?family=Sacramento&amp;amp;subset=latin-ext', array() );

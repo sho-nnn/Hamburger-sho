@@ -7,19 +7,19 @@
 .p-main__access {
     width: 100%;
     height: auto;
-    background:linear-gradient(rgb(0, 0, 0, 0.6) 0%,rgb(0, 0, 0, 0.6) 50%, rgb(0, 0, 0, 0.29) 50%,rgb(0, 0, 0, 0.29) 100%), url(/images/front/access-map_img.png);
+    background:linear-gradient(rgb(0, 0, 0, 0.6) 0%,rgb(0, 0, 0, 0.6) 50%, rgb(0, 0, 0, 0.29) 50%,rgb(0, 0, 0, 0.29) 100%), url(../images/front/access-map_img.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     @include m.media(tab) {
-        background:linear-gradient(rgb(0, 0, 0, 0.6) 0%,rgb(0, 0, 0, 0.6) 100%), url(/images/front/access_map_pc_img.png);
+        background:linear-gradient(rgb(0, 0, 0, 0.6) 0%,rgb(0, 0, 0, 0.6) 100%), url(../images/front/access_map_pc_img.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
     @include m.media(pc) {
         background: inherit;
-        background-image: url(/images/front/access_map_pc_img.png);
+        background-image: url(../images/front/access_map_pc_img.png);
         background-color: rgb(0, 0, 0, 0.29);
         background-repeat: no-repeat;
         background-position: center center;
