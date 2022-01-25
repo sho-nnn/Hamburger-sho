@@ -2,7 +2,7 @@
             <div class="p-sidebar__btn"><button class="js-sidebar js-sidebar__out">×</button></div>
             <ul class="p-sidebar__list">
                 <li class="p-sidebar__list__item p-menu">
-                    <h3 class="p-menu__title c-subtitle02">バーガー</h3>
+                    <h3 class="p-menu__title c-subtitle02"><a href="http://hamburgersho.local/archive/">バーガー</a></h3>
                     <ul class="p-menu__list">
                         <li class="p-menu__list__item">ハンバーガー</li>
                         <li class="p-menu__list__item">チーズバーガー</li>

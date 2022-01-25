@@ -1,9 +1,10 @@
 <?php get_header(); ?>
-        <main class="l-main p-main">
-            <div class="p-mainvisual p-mainvisual--front">
-                <h2 class="c-subtitle01 p-mainvisual__title">ダミーサイト</h2>
-            </div>
-            <article class="c-wrapper p-main__conts--front">
+<main class="l-main p-main">
+    <div class="p-mainvisual p-mainvisual--front">
+        <h2 class="c-subtitle01 p-mainvisual__title">ダミーサイト</h2>
+    </div>
+
+    <article class="c-wrapper p-main__conts--front">
                     <ul class="p-main__conts--front__list">
                         <li class="p-main__conts--front__item">
                             <section class="p-section">
@@ -45,16 +46,16 @@
                         </li>
                     </ul>
             </article>
-            <section class="p-main__access">
-                    <h2 class="c-subtitle01 p-main__access__title">見出しが入ります</h2>
-                    <p class="c-text p-main__access__text">
-                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                    </p>
-            </section>
-        </main>
-        <?php get_sidebar(); ?>
-        <?php get_footer(); ?>
-        
+    <section class="p-main__access">
+        <h2 class="c-subtitle01 p-main__access__title">見出しが入ります</h2>
+        <p class="c-text p-main__access__text">
+            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+        </p>
+    </section>
+</main>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
+
 <!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
