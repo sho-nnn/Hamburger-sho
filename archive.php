@@ -1,10 +1,41 @@
-<?php
-/*
-*Template Name: アーカイブページ
-*/
-?>
-
 <?php get_header(); ?>
+        <main class="l-main p-main">
+            <div class="p-mainvisual p-mainvisual--archive">
+                <h2 class="c-subtitle01 p-main__mainvisual__title p-mainvisual__title">Menu:<span>チーズバーガー</span></h2>
+            </div>
+            <article class="c-wrapper p-main__conts--archive">
+                <dl class="p-main__conts--archive__outline p-outline">
+                    <dt class="c-subtitle03 p-outline__title">小見出しが入ります
+                    </dt>
+                    <dd class="c-text p-outline__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+                </dl>
+                
+<?php get_template_part( "components/archive"); ?>
+
+            </article>
+            <ul class="p-main__pagination">
+                <li class="p-main__pagination__sp"><a href="">≪ 前へ</a></li>
+                <li class="p-main__pagination__sp"><a href="">次へ ≫</a></li>
+                <li class="p-main__pagination__pc"><a href="">page 1/10</a></li>
+                <li class="p-main__pagination__pc"><a href="">≪</a></li>
+                <li class="p-main__pagination__pc"><a href="">1</a></li>
+                <li class="p-main__pagination__pc"><a href="">2</a></li>
+                <li class="p-main__pagination__pc"><a href="">3</a></li>
+                <li class="p-main__pagination__pc"><a href="">4</a></li>
+                <li class="p-main__pagination__pc"><a href="">5</a></li>
+                <li class="p-main__pagination__pc"><a href="">6</a></li>
+                <li class="p-main__pagination__pc"><a href="">7</a></li>
+                <li class="p-main__pagination__pc"><a href="">8</a></li>
+                <li class="p-main__pagination__pc"><a href="">9</a></li>
+                <li class="p-main__pagination__pc"><a href="">≫</a></li>
+            </ul>
+        </main>
+        <?php get_sidebar(); ?>
+<?php get_footer(); ?>
+
+
+
+<!-- <?php //get_header(); ?>
         <main class="l-main p-main">
             <div class="p-mainvisual p-mainvisual--archive">
                 <h2 class="c-subtitle01 p-main__mainvisual__title p-mainvisual__title">Menu:<span>チーズバーガー</span></h2>
@@ -72,5 +103,5 @@
                 <li class="p-main__pagination__pc"><a href="">≫</a></li>
             </ul>
         </main>
-        <?php get_sidebar(); ?>
-<?php get_footer(); ?>
+        <?php //get_sidebar(); ?>
+<?php //get_footer(); ?> -->

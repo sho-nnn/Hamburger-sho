@@ -1,9 +1,3 @@
-<?php
-/*
-*Template Name: ショップ情報
-*/
-?>
-
 <?php get_header(); ?>
         <main class="l-main p-main">
             <div class="p-mainvisual p-mainvisual--page">

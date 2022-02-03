@@ -9,21 +9,25 @@
         display: flex;
         margin-top: 40px;
         justify-content: center;
-        &__item {
-            padding: 0 4%;
-            position: relative;
-            font-size: v.$fz03;
-            color: v.$color01;
-            display: inline;
-        }
-        &__item:first-child::after {
-            position: absolute;
-            margin-top: 6px;
-            content: "";
-            width: 1px;
-            height: 70%;
-            background-color: v.$color01;
-            left: 100%;
+        & ul {
+            width: 100%;
+            & li {
+                font-family: v.$font-base;
+                padding: 0 4%;
+                position: relative;
+                font-size: v.$fz03;
+                color: v.$color01;
+                display: inline;
+            }
+            & li:first-child::after {
+                position: absolute;
+                margin-top: 6px;
+                content: "";
+                width: 1px;
+                height: 70%;
+                background-color: v.$color01;
+                left: 100%;
+            }
         }
     }
 }

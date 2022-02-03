@@ -1,18 +1,21 @@
 <?php
-    //テーマサポート
-    add_theme_support( 'menus' );
-    add_theme_support( 'title-tag' );
-
-    //タイトル出力
-    function wpbeg_title( $title ) {
-        if ( is_front_page() && is_home() ) { //トップページなら
-            $title = get_bloginfo( 'name', 'display' );
-        } elseif ( is_singular() ) { //シングルページなら
-            $title = single_post_title( '', false );
+    function custom_theme_support() {
+        add_theme_support('html5', array(
+            'search-form',
+            'comment-form',
+            'comment-list',
+            'gallery',
+            'caption',
+        ));
+            add_theme_support( 'post-thumbnails' );
+            add_theme_support( 'title-tag' );
+            add_theme_support( 'menus' );
+            // register_nav_menus( array(
+            //     'footer_nav' => esc_html__( 'フッターナビ', 'rtbread' ),
+            //     'category_nav' => esc_html__( 'サイドバーメニュー', 'rtbread' ),
+            // ));
         }
-            return $title;
-        }
-    add_filter( 'pre_get_document_title', 'wpbeg_title' );
+        add_action( 'after_setup_theme', 'custom_theme_support' );
 
     function wpbeg_script() {
         wp_enqueue_script('fontawesome', 'https://kit.fontawesome.com/f73796a947.js', array(), '', true);
@@ -26,6 +29,27 @@
 
     }
     add_action( 'wp_enqueue_scripts', 'wpbeg_script' );
+
+    // カスタムメニューを有効化
+// function register_my_menus() {
+//     register_my_menus( array(
+//         ''
+//     ));
+// }
+// add_action();
+
+//     // クラス名を削除
+// function remove_nav_class($class) {
+//     return $class = array();
+// }
+// add_filter("nav_menu_css_class", "remove_nav_class");
+
+// id名を削除
+function remove_nav_id($id) {
+    return $id = array();
+}
+add_filter("nav_menu_item_id", "remove_nav_id");
+
 
     // function wpbeg_script() {
     //     wp_enqueue_style( 'mplus1p', '//fonts.googleapis.com/earlyaccess/mplus1p.css', array() );

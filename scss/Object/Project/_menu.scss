@@ -3,7 +3,7 @@
 @use "../../Foundation/mixin" as m;
 
 .p-menu {
-    &__title {
+    &__title > a{
         color: v.$color02;
         margin-bottom: 30px;
         margin-left: 12%;
@@ -26,7 +26,7 @@
         }
         @include m.media(pc) {
             font-size: 1.04vw;
-            margin: 0 1% 34px 32%;
+            // margin: 0 1% 34px 32%;
         }
         &__item {
             font-family: v.$font-base;

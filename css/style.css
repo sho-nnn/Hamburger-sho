@@ -405,19 +405,19 @@ aside.scroll {
   }
 }
 
-.p-menu__title {
+.p-menu__title > a {
   color: #707070;
   margin-bottom: 30px;
   margin-left: 12%;
   font-size: 6.4vw;
 }
 @media only screen and (min-width: 600px) {
-  .p-menu__title {
+  .p-menu__title > a {
     font-size: 2.87vw;
   }
 }
 @media only screen and (min-width: 1025px) {
-  .p-menu__title {
+  .p-menu__title > a {
     font-size: 1.25vw;
     margin-left: 26%;
   }
@@ -436,7 +436,6 @@ aside.scroll {
 @media only screen and (min-width: 1025px) {
   .p-menu__list {
     font-size: 1.04vw;
-    margin: 0 1% 34px 32%;
   }
 }
 .p-menu__list__item {
@@ -667,14 +666,18 @@ aside.scroll {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.p-footer__list__item {
+.p-footer__list ul {
+  width: 100%;
+}
+.p-footer__list ul li {
+  font-family: "M+ 1m", sans-serif;
   padding: 0 4%;
   position: relative;
   font-size: 2rem;
   color: #FFFFFF;
   display: inline;
 }
-.p-footer__list__item:first-child::after {
+.p-footer__list ul li:first-child::after {
   position: absolute;
   margin-top: 6px;
   content: "";
