@@ -5,6 +5,7 @@
                             'menu' => 'フッターナビ',
                             'menu_class' => '',
                             'container' => false,
+                            'theme_location' => 'footer-menu'
                         );
                         wp_nav_menu($args);
                         ?>

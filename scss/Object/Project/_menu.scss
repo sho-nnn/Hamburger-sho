@@ -3,7 +3,7 @@
 @use "../../Foundation/mixin" as m;
 
 .p-menu {
-    &__title > a{
+    &__title {
         color: v.$color02;
         margin-bottom: 30px;
         margin-left: 12%;

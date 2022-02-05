@@ -5,7 +5,7 @@
             </div>
             <article class="c-wrapper p-main__conts--single">
                 <h2 class="c-title--h2--single p-main__conts--single__title">見出しh2</h2>
-                <p class="p-main__conts--single__text">Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。</p>
+                <p class="p-main__conts--single__text">ああああPタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。Pタグテキスト。</p>
                 <h3 class="c-title--h3--single p-main__conts--single__title">見出しh3</h3>
                 <h4 class="c-title--h4--single p-main__conts--single__title">見出しh4</h4>
                 <h5 class="c-title--h5--single p-main__conts--single__title">見出しh5</h5>
